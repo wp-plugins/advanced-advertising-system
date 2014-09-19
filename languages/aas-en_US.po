@@ -1,0 +1,755 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Advanced Advertising System 1.0\n"
+"POT-Creation-Date: 2014-09-16 22:57+0700\n"
+"PO-Revision-Date: 2014-09-16 22:59+0700\n"
+"Last-Translator: \n"
+"Language-Team: smartdevth <smartdevth@gmail.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _x;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: C:\\AppServ\\www\\wordpress\\wp-content\\plugins"
+"\\advanced_advertising\n"
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/widget.php:13
+msgid "Advertising Display"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/widget.php:14
+msgid "Display your zone with this widget."
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/widget.php:51
+msgid "Choose Zone:"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/widget.php:55
+msgid "No zone added"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:24
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:26
+msgid "Advertisers"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:25
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:27
+msgid "Advertiser"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:28
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:33
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:36
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:32
+msgid "Add New"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:29
+msgid "Add New Advertiser"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:30
+msgid "New Advertiser"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:31
+msgid "Edit Advertiser"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:32
+msgid "View Advertiser"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:33
+msgid "All Advertisers"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:34
+msgid "Search Advertisers"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:35
+msgid "Parent Advertisers:"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:36
+msgid "No advertisers found."
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:37
+msgid "No advertisers found in Trash."
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:68
+msgid "Advertiser updated."
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:69
+msgid "Advertiser published."
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:70
+msgid "Advertiser submitted."
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:71
+#, php-format
+msgid "Advertiser scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:72
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:77
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:80
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:76
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:73
+msgid "Advertiser draft updated."
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:83
+msgid "Advertiser Details"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:89
+msgid "Advertiser Overview"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:95
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:208
+msgid "Campaign List"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:115
+msgid "Are you sure to reset the payment for this advertiser ?"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:126
+msgid "Company Name"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:130
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:207
+msgid "Email"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:134
+msgid "Telephone Number"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:138
+msgid "Note"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:146
+msgid "Add new campaign for this advertiser"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:146
+msgid "Add new campaign"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:152
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:200
+msgid "Campaign : "
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:152
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:200
+msgid "Campaign status"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:152
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:244
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:200
+msgid "Active"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:152
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:244
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:200
+msgid "Inactive"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:161
+msgid "Total Payment: "
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:161
+msgid "Reset Payment"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:162
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:159
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:231
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:186
+msgid "Total Clicks: "
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:163
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:160
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:232
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:187
+msgid "Total Impressions: "
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:164
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:188
+msgid "Total Banners: "
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:204
+msgid "Avatar"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:206
+msgid "Company"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:209
+msgid "Total Payment"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:22
+msgid "Blank"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:22
+msgid "Self"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:22
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:121
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:211
+msgid "Parent"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:22
+msgid "Top"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:29
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:31
+msgid "Banners"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:30
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:32
+msgid "Banner"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:34
+msgid "Add New Banner"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:35
+msgid "New Banner"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:36
+msgid "Edit Banner"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:37
+msgid "View Banner"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:38
+msgid "All Banners"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:39
+msgid "Search Banners"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:40
+msgid "Parent Banners:"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:41
+msgid "No banners found."
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:42
+msgid "No banners found in Trash."
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:73
+msgid "Banner updated."
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:74
+msgid "Banner published."
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:75
+msgid "Banner submitted."
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:76
+#, php-format
+msgid "Banner scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:78
+msgid "Banner draft updated."
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:88
+msgid "Banner Details"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:94
+msgid "Banner Overview"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:122
+msgid "Select the campaign parent of this banner"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:131
+msgid "Target"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:139
+msgid "Link * (e.g. http://www.example.com)"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:143
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:210
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:211
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:296
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:15
+msgid "Priority"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:144
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:212
+msgid "A greater number will be display first. Default  is 5."
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:148
+msgid "Custom HTML"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:149
+msgid ""
+"if you enale custom HTML, it will override the feature image automatically. "
+"If you insert embed such as flash, you can use %link% as the banner link."
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:158
+msgid "Costs occured from banner: "
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:198
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:200
+#, php-format
+msgid "* Recommended size is %s"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:207
+msgid "Banner Preview"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:208
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:294
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:236
+msgid "Clicks"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:209
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:295
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:237
+msgid "Impressions"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:32
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:34
+msgid "Campaigns"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:33
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:35
+msgid "Campaign"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:37
+msgid "Add New Campaign"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:38
+msgid "New Campaign"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:39
+msgid "Edit Campaign"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:40
+msgid "View Campaign"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:41
+msgid "All Campaigns"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:42
+msgid "Search Campaigns"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:43
+msgid "Parent Campaigns:"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:44
+msgid "No campaigns found."
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:45
+msgid "No campaigns found in Trash."
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:76
+msgid "Campaign updated."
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:77
+msgid "Campaign published."
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:78
+msgid "Campaign submitted."
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:79
+#, php-format
+msgid "Campaign scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:81
+msgid "Campaign draft updated."
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:91
+msgid "Campaign Details"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:97
+msgid "Campaign Overview"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:103
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:297
+msgid "Banner List"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:160
+msgid "Campaign Owner"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:161
+msgid "Select the owner(advertiser) of this campaign"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:170
+msgid "Displaying"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:171
+msgid "Attach this campaign to zone. You can filter zone by choosing a size."
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:175
+msgid "Size"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:181
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:355
+msgid "Choose zones"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:189
+msgid ""
+"No zone published or created. However, you can insert zone and choose this "
+"field later."
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:193
+msgid "Pricing Model"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:194
+msgid "Select how cost occurs. The value of cost can be set in a zone section."
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:195
+msgid "CPC - Cost per click"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:196
+msgid "CPM - Cost occurs every 1,000 of impressions"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:197
+msgid ""
+"CPP - Cost per period : Costs from clicks or impressions won't occur. An end "
+"date should be set if you choose this option"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:200
+msgid "Budget"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:201
+msgid ""
+"Select budget type and value. Budget is a limitation of displaying. Whenever "
+"the costs reach budget value, the campaign will not display."
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:203
+msgid "Budget value"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:206
+msgid "Schedule"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:207
+msgid "Set an end date or leave it empty. A start date is a published date."
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:208
+msgid "End date"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:216
+msgid "Total Impressions"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:217
+msgid ""
+"Set a number of total impressions. If impressions reach this value, the "
+"campaign won't be display. 0 means no limit"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:221
+msgid "Person Impressions"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:222
+msgid ""
+"Set a number of impressions per person. If impressions reach this value, the "
+"campaign won't be display for that person. 0 means no limit"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:230
+msgid "Costs occured from campaign: "
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:238
+msgid "Add new banner for this campaign"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:238
+msgid "Add new banner"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:244
+msgid "Banner : "
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:244
+msgid "Banner status"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:293
+msgid "Target Pricing"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:298
+msgid "Owner"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:300
+msgid "End Date"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:308
+#, php-format
+msgid "Model: %s<br/>Budget: %s<br/>Value: %s<br/>Limit View: %s"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:308
+msgid "Life Time"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:308
+msgid "Per Day"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:15
+msgid "Random"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:28
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:30
+msgid "Zones"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:29
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:31
+msgid "Zone"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:33
+msgid "Add New Zone"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:34
+msgid "New Zone"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:35
+msgid "Edit Zone"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:36
+msgid "View Zone"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:37
+msgid "All Zones"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:38
+msgid "Search Zones"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:39
+msgid "Parent Zones:"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:40
+msgid "No zones found."
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:41
+msgid "No zones found in Trash."
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:72
+msgid "Zone updated."
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:73
+msgid "Zone published."
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:74
+msgid "Zone submitted."
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:75
+#, php-format
+msgid "Zone scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:77
+msgid "Zone draft updated."
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:89
+msgid "Zone Details"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:95
+msgid "Zone Overview"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:101
+msgid "Attached Campaigns"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:124
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:172
+msgid "Slot"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:124
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:161
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:172
+msgid "CPC"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:124
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:162
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:173
+msgid "CPM"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:141
+msgid "Zone Size"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:142
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:156
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:234
+msgid "Width"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:143
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:235
+msgid "Height"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:146
+msgid "Rotation Type"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:154
+msgid "Rotation Timeout"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:155
+msgid "Timeout when rotating a banner in seconds"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:159
+msgid "Default Price"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:160
+msgid "If this zone has no special price, this price will be used as default."
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:165
+msgid "Special Price"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:166
+msgid ""
+"If slot #1,#2,#3,...,#n have different prices then you should specify the "
+"special price."
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:185
+msgid "Costs occured in zone: "
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:189
+msgid "Shortcode: "
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:238
+msgid "Attached Campaign"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:239
+msgid "Shortcode"
+msgstr ""
