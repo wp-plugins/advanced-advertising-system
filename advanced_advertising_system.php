@@ -131,5 +131,9 @@ function aas_column_orderby( $query ) {
 			$query->set('meta_key','priority');  
 			$query->set('orderby','meta_value_num');
 		}
+		elseif('ctr' == $orderby){
+			$query->set('meta_key','_ctr');  
+			$query->set('orderby','meta_value_num');
+		}
 } 
 add_action( 'pre_get_posts', 'aas_column_orderby' );  

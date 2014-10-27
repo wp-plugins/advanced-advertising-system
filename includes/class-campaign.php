@@ -169,8 +169,8 @@ class AAS_Campaign{
 	<p>
 	<label for="campaign_displaying"><strong><?php _e('Displaying',AAS_TEXT_DOMAIN);?></strong></label><br/>
 	<span class="aas_description"><?php _e('Attach this campaign to zone. You can filter zone by choosing a size.',AAS_TEXT_DOMAIN);?></span><br/>
-	<?php global $wpdb; $sizes = array_unique($wpdb->get_col("SELECT meta_value FROM $wpdb->postmeta WHERE meta_key = 'zone_size' order by meta_value ASC"));?>
-	<?php $all_zones = get_posts(array('posts_per_page' => -1,'post_type' => 'zone','orderby' => 'title','order' => 'ASC','meta_key' => 'zone_size','meta_value' => !empty($campaign_size) ? $campaign_size : $sizes[0]));?>
+	<?php global $wpdb; $sizes = array_unique($wpdb->get_col("SELECT meta_value FROM $wpdb->postmeta WHERE meta_key = 'zone_size' AND post_id IN (SELECT ID FROM $wpdb->posts where post_type = 'zone' AND post_status = 'publish') order by meta_value ASC"));?>
+	<?php $all_zones = get_posts(array('posts_per_page' => -1,'post_type' => 'zone','orderby' => 'title','order' => 'ASC','meta_key' => 'zone_size','meta_value' => !empty($campaign_size) && in_array($campaign_size,$sizes) ? $campaign_size : $sizes[0]));?>
 	<?php if(!empty($all_zones)){?>
 	<select data-placeholder="<?php _e('Size' , AAS_TEXT_DOMAIN);?>"  class="meta_select" name="campaign_size" id="campaign_size" >
 	<?php 
@@ -199,7 +199,7 @@ class AAS_Campaign{
 	<p>
 	<label><strong><?php _e('Budget');?></strong></label><br/>
 	<span class="aas_description"><?php _e('Select budget type and value. Budget is a limitation of displaying. Whenever the costs reach budget value, the campaign will not display.',AAS_TEXT_DOMAIN);?></span><br/>
-	<select name="budget_type"><option value="life_time" <?php selected($budget_type,'life_time');?> >Life Time</option><option value="per_day" <?php echo $pricing_model=='cpp' ? 'disabled' : '';?> <?php selected($budget_type,'per_day');?> >Per Day</option></select>
+	<select name="budget_type"><option value="life_time" <?php selected($budget_type,'life_time');?> ><?php _e('Life Time',AAS_TEXT_DOMAIN);?></option><option value="per_day" <?php echo $pricing_model=='cpp' ? 'disabled' : '';?> <?php selected($budget_type,'per_day');?> ><?php _e('Per Day',AAS_TEXT_DOMAIN);?></option></select>
 	<input style="width:135px;position: relative;top: 2px;" type="number" min="0" name="budget_value" placeholder="<?php _e('Budget value' , AAS_TEXT_DOMAIN);?>" value="<?php echo $budget_value;?>" required/>
 	</p>
 	<p>
@@ -228,6 +228,7 @@ class AAS_Campaign{
 	function campaign_overview_box($post){
 	?>
 	<p><strong><?php _e('Costs occured from campaign: ', AAS_TEXT_DOMAIN)?></strong><span><?php echo @AAS_Log::get_log_by('cam_id' , $post->ID)->payment + @AAS_Log::get_log_by('cam_id' , $post->ID,'c')->payment;?></span></p>
+	<p><strong><?php _e('CTR Rate: ', AAS_TEXT_DOMAIN)?></strong><span><?php echo (float)get_post_meta($post->ID, '_ctr',true) . '%';?></span></p>
 	<p><strong><?php _e('Total Clicks: ', AAS_TEXT_DOMAIN)?></strong><span><?php echo (int)get_post_meta($post->ID, '_total_click',true);?></span></p>
 	<p><strong><?php _e('Total Impressions: ', AAS_TEXT_DOMAIN)?></strong><span><?php echo (int)get_post_meta($post->ID, '_total_view',true);?></span></p>
 	<?php
@@ -288,14 +289,19 @@ class AAS_Campaign{
 		}
 		$d_types = array('_total_payment', '_total_view', '_total_click');
 		foreach($d_types as $t){
-		if(!is_numeric(get_post_meta( $post_id, $t, true)))
+		if(!is_numeric( $$t = get_post_meta( $post_id, $t, true)))
 		update_post_meta( $post_id, $t ,0 );
 		}
+		if($_total_view > 0)
+		update_post_meta( $post_id, '_ctr' , round($_total_click*100/$_total_view, 2 ) );
+		else
+		update_post_meta( $post_id, '_ctr' , 0  );
 	}
 	function set_custom_edit_campaign_columns($columns) {
 		$date =  $columns['date'];
 		unset( $columns['date'] );
 		$columns['target_pricing'] = __('Target Pricing',AAS_TEXT_DOMAIN);
+		$columns['ctr'] = __('CTR',AAS_TEXT_DOMAIN);
 		$columns['click'] = __('Clicks',AAS_TEXT_DOMAIN);
 		$columns['impression'] = __('Impressions',AAS_TEXT_DOMAIN);
 		$columns['priority'] = __('Priority',AAS_TEXT_DOMAIN);
@@ -332,6 +338,9 @@ class AAS_Campaign{
 			case 'end_date':
 			echo get_post_meta($post_id , 'campaign_end_date' , true);
 			break;
+			case 'ctr':
+				echo (float)get_post_meta($post_id , '_ctr' , true) . '%';
+			break;
 			case 'click':
 			echo (int)get_post_meta($post_id , '_total_click' , true);
 			break;
@@ -347,7 +356,7 @@ class AAS_Campaign{
 		$sortable_columns[ 'end_date' ] = 'end_date';
 		$sortable_columns[ 'click' ] = 'click';
 		$sortable_columns[ 'impression' ] = 'impression';
-
+		$sortable_columns[ 'ctr' ] = 'ctr';
 		return $sortable_columns;
 	}
 

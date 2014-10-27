@@ -183,6 +183,7 @@ class AAS_Zone{
 	$banner_num=$wpdb->get_var("SELECT COUNT(ID) FROM $wpdb->posts WHERE post_parent IN (SELECT post_id from {$wpdb->prefix}postmeta WHERE meta_key = 'campaign_displaying' AND meta_value={$post->ID}) AND post_type = 'ads_banner'");
 	?>
 	<p><strong><?php _e('Costs occured in zone: ' , AAS_TEXT_DOMAIN)?></strong><span><?php echo @AAS_Log::get_log_by('zone_id' , $post->ID)->payment + @AAS_Log::get_log_by('zone_id' , $post->ID,'c')->payment;?></span></p>
+	<p><strong><?php _e('CTR Rate: ', AAS_TEXT_DOMAIN)?></strong><span><?php echo (float)get_post_meta($post->ID, '_ctr',true) . '%';?></span></p>
 	<p><strong><?php _e('Total Clicks: ', AAS_TEXT_DOMAIN)?></strong><span><?php echo (int)get_post_meta($post->ID, '_total_click',true);?></span></p>
 	<p><strong><?php _e('Total Impressions: ', AAS_TEXT_DOMAIN)?></strong><span><?php echo (int)get_post_meta($post->ID, '_total_view',true);?></span></p>
 	<p><strong><?php _e('Total Banners: ', AAS_TEXT_DOMAIN)?></strong><span><?php echo $banner_num;?></span></p>
@@ -228,9 +229,13 @@ class AAS_Zone{
 		update_post_meta( $post_id, 'zone_rotation' , $_POST['zone_rotation'] );
 		$d_types = array('_total_payment', '_total_view', '_total_click');
 		foreach($d_types as $t){
-		if(!is_numeric(get_post_meta( $post_id, $t, true)))
+		if(!is_numeric( $$t = get_post_meta( $post_id, $t, true)))
 		update_post_meta( $post_id, $t ,0 );
 		}
+		if($_total_view > 0)
+		update_post_meta( $post_id, '_ctr' , round($_total_click*100/$_total_view, 2 ) );
+		else
+		update_post_meta( $post_id, '_ctr' , 0  );
 
 	}
 	function set_custom_edit_zone_columns($columns) {
@@ -238,6 +243,7 @@ class AAS_Zone{
 		unset( $columns['date'] );
 		$columns['width'] = __('Width',AAS_TEXT_DOMAIN);
 		$columns['height'] = __('Height',AAS_TEXT_DOMAIN);
+		$columns['ctr'] = __('CTR',AAS_TEXT_DOMAIN);
 		$columns['click'] = __('Clicks',AAS_TEXT_DOMAIN);
 		$columns['impression'] = __('Impressions',AAS_TEXT_DOMAIN);
 		$columns['campaign'] = __('Attached Campaign',AAS_TEXT_DOMAIN);
@@ -256,6 +262,9 @@ class AAS_Zone{
 			case 'height':
 				$size = explode('x',get_post_meta($post_id, 'zone_size', true));
 				echo $size[1];
+			break;
+			case 'ctr':
+				echo (float)get_post_meta($post_id , '_ctr' , true) . '%';
 			break;
 			case 'click':
 			echo (int)get_post_meta($post_id , '_total_click' , true);
@@ -282,6 +291,7 @@ class AAS_Zone{
 
 		$sortable_columns[ 'width' ] = 'width';
 		$sortable_columns[ 'height' ] = 'height';
+		$sortable_columns[ 'ctr' ] = 'ctr';
 		$sortable_columns[ 'click' ] = 'click';
 		$sortable_columns[ 'impression' ] = 'impression';
 		return $sortable_columns;

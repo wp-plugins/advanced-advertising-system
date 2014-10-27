@@ -162,7 +162,17 @@ class AAS_Log{
 			update_post_meta($this->ads_data[$module], '_total_payment', $old+$net_price );
 			$old = (int)get_post_meta($this->ads_data[$module], $count_type, true);
 			update_post_meta($this->ads_data[$module], $count_type, $old+1 );
+			$v = get_post_meta($this->ads_data[$module], '_total_view', true);
+			if($v > 0){
+			$c = get_post_meta($this->ads_data[$module], '_total_click', true);
+			update_post_meta($this->ads_data[$module], '_ctr', round($c*100/$v,2) );
 			}
+			else
+			update_post_meta($this->ads_data[$module], '_ctr', 0 );
+			}
+
+		
+
 		$id = $wpdb->insert($this->log_table, 
 		array( 
 			'ip_address' => $_SERVER['REMOTE_ADDR'], 

@@ -159,6 +159,7 @@ class AAS_Advertiser{
 	$banner_num=$wpdb->get_var("SELECT COUNT(ID) FROM $wpdb->posts WHERE post_parent IN (SELECT ID from $wpdb->posts WHERE post_parent = {$post->ID} AND post_type = 'campaign' ) AND post_type = 'ads_banner'");
 	?>
 	<p><strong><?php _e('Total Payment: ', AAS_TEXT_DOMAIN)?></strong><span><?php echo (float)get_post_meta($post->ID, '_total_payment',true);?></span><button data-id="<?php echo $post->ID;?>" data-nonce="<?php echo wp_create_nonce('reset-payment-'.$post->ID);?>" id="reset_payment" class="button button-small" style="float:right;"><?php _e('Reset Payment', AAS_TEXT_DOMAIN);?></button></p>
+	<p><strong><?php _e('CTR Rate: ', AAS_TEXT_DOMAIN)?></strong><span><?php echo (float)get_post_meta($post->ID, '_ctr',true) . '%';?></span></p>
 	<p><strong><?php _e('Total Clicks: ', AAS_TEXT_DOMAIN)?></strong><span><?php echo (int)get_post_meta($post->ID, '_total_click',true);?></span></p>
 	<p><strong><?php _e('Total Impressions: ', AAS_TEXT_DOMAIN)?></strong><span><?php echo (int)get_post_meta($post->ID, '_total_view',true);?></span></p>
 	<p><strong><?php _e('Total Banners: ', AAS_TEXT_DOMAIN)?></strong><span><?php echo $banner_num;?></span></p>
@@ -194,9 +195,13 @@ class AAS_Advertiser{
 
 		$d_types = array('_total_payment', '_total_view', '_total_click');
 		foreach($d_types as $t){
-		if(!is_numeric(get_post_meta( $post_id, $t, true)))
+		if(!is_numeric( $$t = get_post_meta( $post_id, $t, true)))
 		update_post_meta( $post_id, $t ,0 );
 		}
+		if($_total_view > 0)
+		update_post_meta( $post_id, '_ctr' , round($_total_click*100/$_total_view, 2 ) );
+		else
+		update_post_meta( $post_id, '_ctr' , 0  );
 	}
 	
 	

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Advanced Advertising System 1.0\n"
-"POT-Creation-Date: 2014-09-16 22:57+0700\n"
-"PO-Revision-Date: 2014-09-16 22:59+0700\n"
+"Project-Id-Version: Advanced Advertising System 1.1\n"
+"POT-Creation-Date: 2014-10-27 21:03+0700\n"
+"PO-Revision-Date: 2014-10-27 21:29+0700\n"
 "Last-Translator: \n"
 "Language-Team: smartdevth <smartdevth@gmail.com>\n"
 "Language: English\n"
@@ -12,8 +12,8 @@ msgstr ""
 "X-Generator: Poedit 1.5.7\n"
 "X-Poedit-KeywordsList: _x;__;_e\n"
 "X-Poedit-Basepath: .\n"
-"X-Poedit-SearchPath-0: C:\\AppServ\\www\\wordpress\\wp-content\\plugins"
-"\\advanced_advertising\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
 
 #: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/widget.php:13
 msgid "Advertising Display"
@@ -121,7 +121,7 @@ msgid "Advertiser Overview"
 msgstr ""
 
 #: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:95
-#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:208
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:219
 msgid "Campaign List"
 msgstr ""
 
@@ -134,7 +134,7 @@ msgid "Company Name"
 msgstr ""
 
 #: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:130
-#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:207
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:218
 msgid "Email"
 msgstr ""
 
@@ -155,24 +155,24 @@ msgid "Add new campaign"
 msgstr ""
 
 #: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:152
-#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:200
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:201
 msgid "Campaign : "
 msgstr ""
 
 #: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:152
-#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:200
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:201
 msgid "Campaign status"
 msgstr ""
 
 #: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:152
-#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:244
-#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:200
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:245
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:201
 msgid "Active"
 msgstr ""
 
 #: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:152
-#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:244
-#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:200
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:245
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:201
 msgid "Inactive"
 msgstr ""
 
@@ -188,30 +188,37 @@ msgstr ""
 #: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:159
 #: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:231
 #: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:186
-msgid "Total Clicks: "
+msgid "CTR Rate: "
 msgstr ""
 
 #: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:163
 #: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:160
 #: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:232
 #: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:187
-msgid "Total Impressions: "
+msgid "Total Clicks: "
 msgstr ""
 
 #: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:164
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:161
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:233
 #: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:188
+msgid "Total Impressions: "
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:165
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:189
 msgid "Total Banners: "
 msgstr ""
 
-#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:204
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:215
 msgid "Avatar"
 msgstr ""
 
-#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:206
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:217
 msgid "Company"
 msgstr ""
 
-#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:209
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-advertiser.php:220
 msgid "Total Payment"
 msgstr ""
 
@@ -225,7 +232,7 @@ msgstr ""
 
 #: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:22
 #: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:121
-#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:211
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:223
 msgid "Parent"
 msgstr ""
 
@@ -321,9 +328,9 @@ msgid "Link * (e.g. http://www.example.com)"
 msgstr ""
 
 #: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:143
-#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:210
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:222
 #: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:211
-#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:296
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:307
 #: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:15
 msgid "Priority"
 msgstr ""
@@ -347,25 +354,31 @@ msgstr ""
 msgid "Costs occured from banner: "
 msgstr ""
 
-#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:198
-#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:200
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:209
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:211
 #, php-format
 msgid "* Recommended size is %s"
 msgstr ""
 
-#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:207
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:218
 msgid "Banner Preview"
 msgstr ""
 
-#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:208
-#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:294
-#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:236
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:219
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:304
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:246
+msgid "CTR"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:220
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:305
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:247
 msgid "Clicks"
 msgstr ""
 
-#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:209
-#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:295
-#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:237
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-banner.php:221
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:306
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:248
 msgid "Impressions"
 msgstr ""
 
@@ -445,7 +458,7 @@ msgid "Campaign Overview"
 msgstr ""
 
 #: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:103
-#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:297
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:308
 msgid "Banner List"
 msgstr ""
 
@@ -470,7 +483,7 @@ msgid "Size"
 msgstr ""
 
 #: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:181
-#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:355
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:367
 msgid "Choose zones"
 msgstr ""
 
@@ -510,6 +523,16 @@ msgstr ""
 msgid ""
 "Select budget type and value. Budget is a limitation of displaying. Whenever "
 "the costs reach budget value, the campaign will not display."
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:202
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:319
+msgid "Life Time"
+msgstr ""
+
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:202
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:319
+msgid "Per Day"
 msgstr ""
 
 #: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:203
@@ -552,45 +575,37 @@ msgstr ""
 msgid "Costs occured from campaign: "
 msgstr ""
 
-#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:238
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:239
 msgid "Add new banner for this campaign"
 msgstr ""
 
-#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:238
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:239
 msgid "Add new banner"
 msgstr ""
 
-#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:244
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:245
 msgid "Banner : "
 msgstr ""
 
-#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:244
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:245
 msgid "Banner status"
 msgstr ""
 
-#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:293
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:303
 msgid "Target Pricing"
 msgstr ""
 
-#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:298
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:309
 msgid "Owner"
 msgstr ""
 
-#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:300
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:311
 msgid "End Date"
 msgstr ""
 
-#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:308
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:319
 #, php-format
 msgid "Model: %s<br/>Budget: %s<br/>Value: %s<br/>Limit View: %s"
-msgstr ""
-
-#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:308
-msgid "Life Time"
-msgstr ""
-
-#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-campaign.php:308
-msgid "Per Day"
 msgstr ""
 
 #: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:15
@@ -699,12 +714,12 @@ msgstr ""
 
 #: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:142
 #: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:156
-#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:234
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:244
 msgid "Width"
 msgstr ""
 
 #: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:143
-#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:235
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:245
 msgid "Height"
 msgstr ""
 
@@ -742,14 +757,14 @@ msgstr ""
 msgid "Costs occured in zone: "
 msgstr ""
 
-#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:189
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:190
 msgid "Shortcode: "
 msgstr ""
 
-#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:238
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:249
 msgid "Attached Campaign"
 msgstr ""
 
-#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:239
+#: C:\AppServ\www\wordpress\wp-content\plugins\advanced_advertising/includes/class-zone.php:250
 msgid "Shortcode"
 msgstr ""

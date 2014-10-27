@@ -156,6 +156,7 @@ class AAS_Banner{
 	function banner_overview_box($post){
 	?>
 	<p><strong><?php _e('Costs occured from banner: ', AAS_TEXT_DOMAIN)?></strong><span><?php echo @AAS_Log::get_log_by('banner_id' , $post->ID)->payment + @AAS_Log::get_log_by('banner_id' , $post->ID,'c')->payment;?></span></p>
+	<p><strong><?php _e('CTR Rate: ', AAS_TEXT_DOMAIN)?></strong><span><?php echo (float)get_post_meta($post->ID, '_ctr',true) . '%';?></span></p>
 	<p><strong><?php _e('Total Clicks: ', AAS_TEXT_DOMAIN)?></strong><span><?php echo (int)get_post_meta($post->ID, '_total_click',true);?></span></p>
 	<p><strong><?php _e('Total Impressions: ', AAS_TEXT_DOMAIN)?></strong><span><?php echo (int)get_post_meta($post->ID, '_total_view',true);?></span></p>
 	<?php
@@ -192,9 +193,13 @@ class AAS_Banner{
 
 		$d_types = array('_total_payment', '_total_view', '_total_click');
 		foreach($d_types as $t){
-		if(!is_numeric(get_post_meta( $post_id, $t, true)))
+		if(!is_numeric( $$t = get_post_meta( $post_id, $t, true)))
 		update_post_meta( $post_id, $t ,0 );
 		}
+		if($_total_view > 0)
+		update_post_meta( $post_id, '_ctr' , round($_total_click*100/$_total_view, 2 ) );
+		else
+		update_post_meta( $post_id, '_ctr' , 0  );
 	}
 
 	function suggest_banner_size($html , $post){
@@ -211,6 +216,7 @@ class AAS_Banner{
 		$date =  $columns['date'];
 		unset( $columns['date'] );
 		$columns['image'] = __('Banner Preview',AAS_TEXT_DOMAIN);
+		$columns['ctr'] = __('CTR',AAS_TEXT_DOMAIN);
 		$columns['click'] = __('Clicks',AAS_TEXT_DOMAIN);
 		$columns['impression'] = __('Impressions',AAS_TEXT_DOMAIN);
 		$columns['priority'] = __('Priority',AAS_TEXT_DOMAIN);
@@ -235,6 +241,9 @@ class AAS_Banner{
 			case 'priority' :
 			echo get_post_meta($post_id , 'priority' , true);
 			break;
+			case 'ctr':
+			echo (float)get_post_meta($post_id , '_ctr' , true) . '%';
+			break;
 			case 'click':
 			echo (int)get_post_meta($post_id , '_total_click' , true);
 			break;
@@ -254,6 +263,7 @@ class AAS_Banner{
 		$sortable_columns[ 'priority' ] = 'priority';
 		$sortable_columns[ 'click' ] = 'click';
 		$sortable_columns[ 'impression' ] = 'impression';
+		$sortable_columns[ 'ctr' ] = 'ctr';
 		return $sortable_columns;
 	}
 	

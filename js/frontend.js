@@ -41,7 +41,7 @@ $(window).scroll(logging_ads);
 function logging_ads(){
 
 	$('.aas_wrapper').each(function(){
-		if( isVisible( jQuery(this) ) && jQuery(this).offset().left == jQuery(this).closest('.caroufredsel_wrapper').offset().left && viewed[jQuery(this).data('ads')] != 1 ){
+		if( isVisible( jQuery(this).children() ) && jQuery(this).offset().left == jQuery(this).closest('.caroufredsel_wrapper').offset().left && viewed[jQuery(this).data('ads')] != 1 ){
 		viewed[jQuery(this).data('ads')] = 1;
 		var data = {
 		action : 'aas_view_log',
