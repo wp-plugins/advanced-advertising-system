@@ -64,7 +64,7 @@ First, you have to create zone. When you are creating a campaign, you must attac
 
 == Changelog ==
 
-= 1.1.1=
+= 1.1.1 =
 * Fix ads display function
 
 = 1.1 =
@@ -76,7 +76,7 @@ First, you have to create zone. When you are creating a campaign, you must attac
 
 == Upgrade Notice ==
 
-= 1.1.1=
+= 1.1.1 =
 * Fix ads display function
 
 = 1.1 =
