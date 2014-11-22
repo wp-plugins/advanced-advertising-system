@@ -105,7 +105,7 @@ class AAS_Shortcode{
 		$html .= '<a style="width:'.$zone_size[0].'px;height:'.$zone_size[1].'px;float:left;" class="aas_wrapper" href="'. $this->get_banner_link($banner) .'" style="overflow:hidden;" target="'.get_post_meta($banner->ID,'banner_target',true).'" data-ads="'.$banner->ID . '-'. $banner->post_parent .'-'.$this->banner_advertiser[$banner->post_parent] . '-' . $this->zone->ID  . '-' . $this->zone_order .'"  data-nonce="'.wp_create_nonce($banner->ID . '-'. $banner->post_parent .'-'.$this->banner_advertiser[$banner->post_parent].'-'.$this->zone->ID . '-' . $this->zone_order).'">';
 		$custom = get_post_meta($banner->ID , 'custom_html' , true);
 		if(empty($custom['enable']) || empty($custom['html']))
-		$html .= wp_get_attachment_image(get_post_thumbnail_id($banner->ID) , array($zone_size[0],$zone_size[1]));
+		$html .= wp_get_attachment_image(get_post_thumbnail_id($banner->ID) , 'full');
 		elseif(!empty($custom['html']))
 		$html .= str_replace('%link%', $this->get_banner_link($banner) , $custom['html']);
 		$html .= '</a>';
