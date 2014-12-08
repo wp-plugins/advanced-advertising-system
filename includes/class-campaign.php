@@ -206,7 +206,7 @@ class AAS_Campaign{
 	<p>
 	<label for="campaign_end_date"><strong><?php _e('Schedule');?></strong></label><br/>
 	<span class="aas_description"><?php _e('Set an end date or leave it empty. A start date is a published date.',AAS_TEXT_DOMAIN);?></span><br/>
-	<input type="text" name="campaign_end_date" class="datepicker" id="campaign_end_date" value="<?php echo $campaign_end_date;?>" placeholder="<?php _e('End date' , AAS_TEXT_DOMAIN);?>" />
+	<input type="text" name="campaign_end_date" class="aas_datetimepicker" id="campaign_end_date" value="<?php echo $campaign_end_date;?>" placeholder="<?php _e('End date' , AAS_TEXT_DOMAIN);?>" />
 	</p>
 	<p>
 	<label for="priority"><strong><?php _e('Priority');?></strong></label><br/>

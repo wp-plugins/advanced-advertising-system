@@ -27,7 +27,7 @@ class AAS_Widget extends WP_Widget {
 		$zone_id =$instance['zone_id'] ;
 		echo $args['before_widget'];
 		if ( is_numeric( $zone_id ) ) {
-			echo $args['before_title'] . do_shortcode('[aas_zone zone_id='.$zone_id.']') . $args['after_title'];
+			echo do_shortcode('[aas_zone zone_id='.$zone_id.']');
 		}
 		echo $args['after_widget'];
 	}
