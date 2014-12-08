@@ -64,6 +64,9 @@ First, you have to create zone. When you are creating a campaign, you must attac
 
 == Changelog ==
 
+= 1.1.2 =
+* Fix an end date field
+
 = 1.1.1 =
 * Fix ads display function
 
@@ -75,6 +78,9 @@ First, you have to create zone. When you are creating a campaign, you must attac
 * The initial version
 
 == Upgrade Notice ==
+
+= 1.1.2 =
+* Fix an end date field
 
 = 1.1.1 =
 * Fix ads display function
