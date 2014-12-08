@@ -140,7 +140,7 @@ class AAS_Shortcode{
 		}
 		if($campaign->post_status != 'publish')
 		return false;
-		if(!empty($meta['campaign_end_date']) && $meta['campaign_end_date'] < $now)
+		if(!empty($meta['campaign_end_date']) && strtotime($meta['campaign_end_date']) < strtotime($now))
 		return false;
 
 		$log = AAS_Log::get_log_by('cam_id',$campaign_id);

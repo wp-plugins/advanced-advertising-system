@@ -123,7 +123,8 @@ class AAS_Campaign{
 	jQuery(document).ready(function() {
 		jQuery("#post").validate();
 		jQuery("#campaign_end_date").datetimepicker({
-		onShow:function(){
+			format : 'Y/m/d H:i',
+			onShow:function(){
 			 this.setOptions({
 			 minDate:jQuery("#aa").val() + '/' + jQuery("#mm").val() + '/' + jQuery("#jj").val()
 			 });
