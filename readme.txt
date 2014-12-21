@@ -3,7 +3,7 @@ Contributors: smartdevth
 Donate link: 
 Tags: ad, advert, advertise, pricing model, cpc, cpm, cpa, cost per click, cost per mile, pay per click, ad widget, ads widget, ads shortcode, ad shortcode, rotate, rotation, ad rotate, ads rotate, ad manager, ads manager, ad management, ads management, leaderboard ad, medium rectangle ad, advertising, advertisement, ads, banner, campaign, campaign priority, ad priority, priority, zone, banner ads, ads banner, advertiser, advanced ads, advanced advertising, manage ads
 Requires at least: 3.5
-Tested up to: 4.0
+Tested up to: 4.1
 Stable tag: 1.1.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
