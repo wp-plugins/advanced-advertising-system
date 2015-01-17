@@ -3,8 +3,8 @@ Contributors: smartdevth
 Donate link: 
 Tags: ad, advert, advertise, pricing model, cpc, cpm, cpa, cost per click, cost per mile, pay per click, ad widget, ads widget, ads shortcode, ad shortcode, rotate, rotation, ad rotate, ads rotate, ad manager, ads manager, ad management, ads management, leaderboard ad, medium rectangle ad, advertising, advertisement, ads, banner, campaign, campaign priority, ad priority, priority, zone, banner ads, ads banner, advertiser, advanced ads, advanced advertising, manage ads
 Requires at least: 3.5
-Tested up to: 4.1
-Stable tag: 1.1.2.1
+Tested up to: 4.0
+Stable tag: 1.1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -65,6 +65,9 @@ First, you have to create zone. When you are creating a campaign, you must attac
 
 == Changelog ==
 
+= 1.1.3 =
+* Fix custom HTML function(especially for adsense, and the others)
+
 = 1.1.2.1 =
 * Change HTML of the widget
 * Change end date field class(to avoid conflict with other datepicker)
@@ -83,6 +86,9 @@ First, you have to create zone. When you are creating a campaign, you must attac
 * The initial version
 
 == Upgrade Notice ==
+
+= 1.1.3 =
+* Fix custom HTML function(especially for adsense, and the others)
 
 = 1.1.2.1 =
 * Change HTML of the widget

@@ -146,7 +146,7 @@ class AAS_Banner{
 	</p>
 	<p>
 	<label for="custom_html"><strong><?php _e('Custom HTML', AAS_TEXT_DOMAIN);?></strong></label><br/>
-	<span class="aas_description"><?php _e('if you enale custom HTML, it will override the feature image automatically. If you insert embed such as flash, you can use %link% as the banner link.',AAS_TEXT_DOMAIN);?></span><br/>
+	<span class="aas_description"><?php _e('if you enale custom HTML, it will override the feature image automatically. If you insert embed such as flash, you can use %link% as the banner link. You have to put %link% somewhere in your html; otherwise, click log won\'t occur.',AAS_TEXT_DOMAIN);?></span><br/>
 	<input type="checkbox" name="custom_html[enable]" id="custom_html-enable" value="1" style="margin:5px 0px;" <?php if(isset($custom_html['enable']))checked($custom_html['enable'],1) ;?>/><br/>
 	<textarea class="meta_text" id="custom_html-html" name="custom_html[html]" rows="7" <?php echo empty($custom_html['enable']) ? 'style="display:none;"' : '';?>><?php echo isset($custom_html['html']) ? $custom_html['html'] : ''; ?></textarea>
 	</p>
@@ -190,7 +190,7 @@ class AAS_Banner{
 		update_post_meta( $post_id, 'banner_link' , sanitize_text_field($_POST['banner_link']) );
 		update_post_meta( $post_id, 'priority' , intval($_POST['priority']) );
 		update_post_meta( $post_id, 'custom_html' , $_POST['custom_html'] );
-
+		
 		$d_types = array('_total_payment', '_total_view', '_total_click');
 		foreach($d_types as $t){
 		if(!is_numeric( $$t = get_post_meta( $post_id, $t, true)))

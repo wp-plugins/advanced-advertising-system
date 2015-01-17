@@ -6,7 +6,7 @@
 Plugin Name: Advanced Advertising System
 Plugin URI:
 Description: Manage your advertiser with many professional features.
-Version: 1.1.2.1
+Version: 1.1.3
 Author: Smartdevth
 Author URI: 
 License: GPLv2 or later
