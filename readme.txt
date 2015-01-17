@@ -1,6 +1,6 @@
 ﻿=== Advanced Advertising System ===
 Contributors: smartdevth
-Donate link: 
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZMQXPCTPUMJT4
 Tags: ad, advert, advertise, pricing model, cpc, cpm, cpa, cost per click, cost per mile, pay per click, ad widget, ads widget, ads shortcode, ad shortcode, rotate, rotation, ad rotate, ads rotate, ad manager, ads manager, ad management, ads management, leaderboard ad, medium rectangle ad, advertising, advertisement, ads, banner, campaign, campaign priority, ad priority, priority, zone, banner ads, ads banner, advertiser, advanced ads, advanced advertising, manage ads
 Requires at least: 3.5
 Tested up to: 4.1
