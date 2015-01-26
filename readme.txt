@@ -57,6 +57,11 @@ You can mail me smartdevth@gmail.com everytime if you have a question or if you 
 
 First, you have to create zone. When you are creating a campaign, you must attach the campaign to the zones, then you can use a shortcode or widget to display them.
 
+= Why do I see only white space, no images or banners are displayed ? =
+
+Make sure you have create the 4 things step by step. This case is usually caused by setting of campaign.
+You have to ensure that you have set everything correctly such as budget, end date and zone attachment.
+
 == Screenshots ==
 
 1. Zone manager
