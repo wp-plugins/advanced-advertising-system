@@ -28,22 +28,51 @@ If you have customers who want to promote their products on your site, Advanced 
 *   Schedule the campaign
 *   Create banners for each campaign
   
-= PRO Version =
-*   Front-end filter based on taxonomy, page, archive, member informations and more
-*   Period graph report for the campaign and advertiser
-*   Add more rotation type
-*   Add reset view count on campaign for more effective
-*   Add quick advertising widget
-*   Add prevent click fraud 
-*   More settings for both front-end and back-end
+= PRO Version BETA =
 
-PRO version is coming soon !
+Here's all features that extend from this version.
+
+ = Campaign =
+* Advanced Filters
+* Notification Email
+* Reset View Count
+
+ = Zone =
+* 5 Rich Media Banner Types
+* Rotation Effect
+* Available Devices
+* More Rotation Type
+
+ = Banner =
+* Add a secondary media
+* Can insert a video
+
+ = Advertiser =
+* Payment history
+* Payment result for each campaign
+
+ = Report =
+* View graph for every objects
+* 3 Graph styles : chart, pie, line
+* 2 type of graph : comparison, time
+* Advanced filters for time graph
+* Attach the graph as an image when sending an email to the advertiser
+
+ = Other =
+* Prevent Click Fraud
+* Ajax load, useful when a caching plugin is used
+
+ = Auto Email =
+* Auto Email when a campaign expires
+* Auto Emai when a campaign is updated
+* Auto Email when a campaign nearly expires
+
+PRO version beta now is available, if you interested, please contact me at smartdevth@gmail.com
 
 = Support =
 You can mail me smartdevth@gmail.com everytime if you have a question or if you have some suggestion.
 
 == Installation ==
-
 
 1. Upload the plugin to the `/wp-content/plugins/` directory
 2. Activate the plugin
