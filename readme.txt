@@ -28,46 +28,44 @@ If you have customers who want to promote their products on your site, Advanced 
 *   Schedule the campaign
 *   Create banners for each campaign
   
-= PRO Version BETA =
+= PRO Version =
 
-Here's all features that extend from this version.
+Here's advanced features of the PRO version beta.
 
  = Campaign =
 * Advanced Filters
+ - Term Filter
+ - Page Filter
+ - Template Filter
+ - User Filter
 * Notification Email
 * Reset View Count
-
  = Zone =
 * 5 Rich Media Banner Types
 * Rotation Effect
-* Available Devices
+* Available Devices Selection
 * More Rotation Type
-
  = Banner =
 * Add a secondary media
 * Can insert a video
-
  = Advertiser =
 * Payment history
 * Payment result for each campaign
-
  = Report =
 * View graph for every objects
 * 3 Graph styles : chart, pie, line
 * 2 type of graph : comparison, time
 * Advanced filters for time graph
 * Attach the graph as an image when sending an email to the advertiser
-
- = Other =
+ = Others =
 * Prevent Click Fraud
 * Ajax load, useful when a caching plugin is used
-
  = Auto Email =
 * Auto Email when a campaign expires
 * Auto Emai when a campaign is updated
 * Auto Email when a campaign nearly expires
 
-PRO version beta now is available, if you interested, please contact me at smartdevth@gmail.com
+PRO version now is available in beta, if you interested, please contact me at smartdevth@gmail.com
 
 
 == Installation ==
