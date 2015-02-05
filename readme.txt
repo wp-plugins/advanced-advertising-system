@@ -30,9 +30,8 @@ If you have customers who want to promote their products on your site, Advanced 
   
 = PRO Version =
 
-Here's advanced features of the PRO version beta.
+Here are features of the PRO version beta.
 
- = Campaign =
 * Advanced Filters
  - Term Filter
  - Page Filter
@@ -40,27 +39,21 @@ Here's advanced features of the PRO version beta.
  - User Filter
 * Notification Email
 * Reset View Count
- = Zone =
 * 5 Rich Media Banner Types
 * Rotation Effect
 * Available Devices Selection
 * More Rotation Type
- = Banner =
 * Add a secondary media
 * Can insert a video
- = Advertiser =
 * Payment history
 * Payment result for each campaign
- = Report =
 * View graph for every objects
 * 3 Graph styles : chart, pie, line
 * 2 type of graph : comparison, time
 * Advanced filters for time graph
 * Attach the graph as an image when sending an email to the advertiser
- = Others =
 * Prevent Click Fraud
 * Ajax load, useful when a caching plugin is used
- = Auto Email =
 * Auto Email when a campaign expires
 * Auto Emai when a campaign is updated
 * Auto Email when a campaign nearly expires
