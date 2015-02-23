@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Advanced Advertising System 1.1\n"
-"POT-Creation-Date: 2015-01-17 14:03+0700\n"
-"PO-Revision-Date: 2015-01-17 14:03+0700\n"
+"POT-Creation-Date: 2015-02-24 00:04+0700\n"
+"PO-Revision-Date: 2015-02-24 00:04+0700\n"
 "Last-Translator: \n"
 "Language-Team: smartdevth <smartdevth@gmail.com>\n"
 "Language: English\n"
@@ -14,6 +14,20 @@ msgstr ""
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: ..\n"
+
+#: ../advanced_advertising_system.php:178
+msgid ""
+"Advanced Advertising System is now available in PRO Version with many cool "
+"features !"
+msgstr ""
+
+#: ../advanced_advertising_system.php:179
+msgid "Check out PRO Version now  !"
+msgstr ""
+
+#: ../advanced_advertising_system.php:180
+msgid "Dismiss this notice"
+msgstr ""
 
 #: ../widget.php:13
 msgid "Advertising Display"
@@ -40,7 +54,7 @@ msgid "Advertiser"
 msgstr ""
 
 #: ../includes/class-advertiser.php:28 ../includes/class-banner.php:33
-#: ../includes/class-campaign.php:36 ../includes/class-zone.php:32
+#: ../includes/class-campaign.php:36 ../includes/class-zone.php:38
 msgid "Add New"
 msgstr ""
 
@@ -98,7 +112,7 @@ msgid "Advertiser scheduled for: <strong>%1$s</strong>."
 msgstr ""
 
 #: ../includes/class-advertiser.php:72 ../includes/class-banner.php:77
-#: ../includes/class-campaign.php:80 ../includes/class-zone.php:76
+#: ../includes/class-campaign.php:80 ../includes/class-zone.php:82
 msgid "M j, Y @ G:i"
 msgstr ""
 
@@ -146,21 +160,21 @@ msgstr ""
 msgid "Add new campaign"
 msgstr ""
 
-#: ../includes/class-advertiser.php:152 ../includes/class-zone.php:201
+#: ../includes/class-advertiser.php:152 ../includes/class-zone.php:219
 msgid "Campaign : "
 msgstr ""
 
-#: ../includes/class-advertiser.php:152 ../includes/class-zone.php:201
+#: ../includes/class-advertiser.php:152 ../includes/class-zone.php:219
 msgid "Campaign status"
 msgstr ""
 
 #: ../includes/class-advertiser.php:152 ../includes/class-campaign.php:246
-#: ../includes/class-zone.php:201
+#: ../includes/class-zone.php:219
 msgid "Active"
 msgstr ""
 
 #: ../includes/class-advertiser.php:152 ../includes/class-campaign.php:246
-#: ../includes/class-zone.php:201
+#: ../includes/class-zone.php:219
 msgid "Inactive"
 msgstr ""
 
@@ -173,21 +187,21 @@ msgid "Reset Payment"
 msgstr ""
 
 #: ../includes/class-advertiser.php:162 ../includes/class-banner.php:159
-#: ../includes/class-campaign.php:232 ../includes/class-zone.php:186
+#: ../includes/class-campaign.php:232 ../includes/class-zone.php:204
 msgid "CTR Rate: "
 msgstr ""
 
 #: ../includes/class-advertiser.php:163 ../includes/class-banner.php:160
-#: ../includes/class-campaign.php:233 ../includes/class-zone.php:187
+#: ../includes/class-campaign.php:233 ../includes/class-zone.php:205
 msgid "Total Clicks: "
 msgstr ""
 
 #: ../includes/class-advertiser.php:164 ../includes/class-banner.php:161
-#: ../includes/class-campaign.php:234 ../includes/class-zone.php:188
+#: ../includes/class-campaign.php:234 ../includes/class-zone.php:206
 msgid "Total Impressions: "
 msgstr ""
 
-#: ../includes/class-advertiser.php:165 ../includes/class-zone.php:189
+#: ../includes/class-advertiser.php:165 ../includes/class-zone.php:207
 msgid "Total Banners: "
 msgstr ""
 
@@ -307,7 +321,7 @@ msgstr ""
 
 #: ../includes/class-banner.php:143 ../includes/class-banner.php:222
 #: ../includes/class-campaign.php:212 ../includes/class-campaign.php:308
-#: ../includes/class-zone.php:15
+#: ../includes/class-zone.php:16
 msgid "Priority"
 msgstr ""
 
@@ -341,17 +355,17 @@ msgid "Banner Preview"
 msgstr ""
 
 #: ../includes/class-banner.php:219 ../includes/class-campaign.php:305
-#: ../includes/class-zone.php:246
+#: ../includes/class-zone.php:265
 msgid "CTR"
 msgstr ""
 
 #: ../includes/class-banner.php:220 ../includes/class-campaign.php:306
-#: ../includes/class-zone.php:247
+#: ../includes/class-zone.php:266
 msgid "Clicks"
 msgstr ""
 
 #: ../includes/class-banner.php:221 ../includes/class-campaign.php:307
-#: ../includes/class-zone.php:248
+#: ../includes/class-zone.php:267
 msgid "Impressions"
 msgstr ""
 
@@ -575,156 +589,180 @@ msgstr ""
 msgid "Model: %s<br/>Budget: %s<br/>Value: %s<br/>Limit View: %s"
 msgstr ""
 
-#: ../includes/class-zone.php:15
+#: ../includes/class-zone.php:16
 msgid "Random"
 msgstr ""
 
-#: ../includes/class-zone.php:28 ../includes/class-zone.php:30
+#: ../includes/class-zone.php:18
+msgid "PC"
+msgstr ""
+
+#: ../includes/class-zone.php:19
+msgid "Mobile"
+msgstr ""
+
+#: ../includes/class-zone.php:20
+msgid "Tablet"
+msgstr ""
+
+#: ../includes/class-zone.php:34 ../includes/class-zone.php:36
 msgid "Zones"
 msgstr ""
 
-#: ../includes/class-zone.php:29 ../includes/class-zone.php:31
+#: ../includes/class-zone.php:35 ../includes/class-zone.php:37
 msgid "Zone"
 msgstr ""
 
-#: ../includes/class-zone.php:33
+#: ../includes/class-zone.php:39
 msgid "Add New Zone"
 msgstr ""
 
-#: ../includes/class-zone.php:34
+#: ../includes/class-zone.php:40
 msgid "New Zone"
 msgstr ""
 
-#: ../includes/class-zone.php:35
+#: ../includes/class-zone.php:41
 msgid "Edit Zone"
 msgstr ""
 
-#: ../includes/class-zone.php:36
+#: ../includes/class-zone.php:42
 msgid "View Zone"
 msgstr ""
 
-#: ../includes/class-zone.php:37
+#: ../includes/class-zone.php:43
 msgid "All Zones"
 msgstr ""
 
-#: ../includes/class-zone.php:38
+#: ../includes/class-zone.php:44
 msgid "Search Zones"
 msgstr ""
 
-#: ../includes/class-zone.php:39
+#: ../includes/class-zone.php:45
 msgid "Parent Zones:"
 msgstr ""
 
-#: ../includes/class-zone.php:40
+#: ../includes/class-zone.php:46
 msgid "No zones found."
 msgstr ""
 
-#: ../includes/class-zone.php:41
+#: ../includes/class-zone.php:47
 msgid "No zones found in Trash."
 msgstr ""
 
-#: ../includes/class-zone.php:72
+#: ../includes/class-zone.php:78
 msgid "Zone updated."
 msgstr ""
 
-#: ../includes/class-zone.php:73
+#: ../includes/class-zone.php:79
 msgid "Zone published."
 msgstr ""
 
-#: ../includes/class-zone.php:74
+#: ../includes/class-zone.php:80
 msgid "Zone submitted."
 msgstr ""
 
-#: ../includes/class-zone.php:75
+#: ../includes/class-zone.php:81
 #, php-format
 msgid "Zone scheduled for: <strong>%1$s</strong>."
 msgstr ""
 
-#: ../includes/class-zone.php:77
+#: ../includes/class-zone.php:83
 msgid "Zone draft updated."
 msgstr ""
 
-#: ../includes/class-zone.php:89
+#: ../includes/class-zone.php:95
 msgid "Zone Details"
 msgstr ""
 
-#: ../includes/class-zone.php:95
+#: ../includes/class-zone.php:101
 msgid "Zone Overview"
 msgstr ""
 
-#: ../includes/class-zone.php:101
+#: ../includes/class-zone.php:107
 msgid "Attached Campaigns"
 msgstr ""
 
-#: ../includes/class-zone.php:124 ../includes/class-zone.php:172
+#: ../includes/class-zone.php:132 ../includes/class-zone.php:190
 msgid "Slot"
 msgstr ""
 
-#: ../includes/class-zone.php:124 ../includes/class-zone.php:161
-#: ../includes/class-zone.php:172
+#: ../includes/class-zone.php:132 ../includes/class-zone.php:179
+#: ../includes/class-zone.php:190
 msgid "CPC"
 msgstr ""
 
-#: ../includes/class-zone.php:124 ../includes/class-zone.php:162
-#: ../includes/class-zone.php:173
+#: ../includes/class-zone.php:132 ../includes/class-zone.php:180
+#: ../includes/class-zone.php:191
 msgid "CPM"
 msgstr ""
 
-#: ../includes/class-zone.php:141
+#: ../includes/class-zone.php:149
 msgid "Zone Size"
 msgstr ""
 
-#: ../includes/class-zone.php:142 ../includes/class-zone.php:156
-#: ../includes/class-zone.php:244
+#: ../includes/class-zone.php:150 ../includes/class-zone.php:174
+#: ../includes/class-zone.php:263
 msgid "Width"
 msgstr ""
 
-#: ../includes/class-zone.php:143 ../includes/class-zone.php:245
+#: ../includes/class-zone.php:151 ../includes/class-zone.php:264
 msgid "Height"
 msgstr ""
 
-#: ../includes/class-zone.php:146
-msgid "Rotation Type"
-msgstr ""
-
 #: ../includes/class-zone.php:154
-msgid "Rotation Timeout"
+msgid "Available Devices"
 msgstr ""
 
 #: ../includes/class-zone.php:155
+msgid "Leave this field if this zone is available in all devices."
+msgstr ""
+
+#: ../includes/class-zone.php:156
+msgid "Choose devices"
+msgstr ""
+
+#: ../includes/class-zone.php:164
+msgid "Rotation Type"
+msgstr ""
+
+#: ../includes/class-zone.php:172
+msgid "Rotation Timeout"
+msgstr ""
+
+#: ../includes/class-zone.php:173
 msgid "Timeout when rotating a banner in seconds"
 msgstr ""
 
-#: ../includes/class-zone.php:159
+#: ../includes/class-zone.php:177
 msgid "Default Price"
 msgstr ""
 
-#: ../includes/class-zone.php:160
+#: ../includes/class-zone.php:178
 msgid "If this zone has no special price, this price will be used as default."
 msgstr ""
 
-#: ../includes/class-zone.php:165
+#: ../includes/class-zone.php:183
 msgid "Special Price"
 msgstr ""
 
-#: ../includes/class-zone.php:166
+#: ../includes/class-zone.php:184
 msgid ""
 "If slot #1,#2,#3,...,#n have different prices then you should specify the "
 "special price."
 msgstr ""
 
-#: ../includes/class-zone.php:185
+#: ../includes/class-zone.php:203
 msgid "Costs occured in zone: "
 msgstr ""
 
-#: ../includes/class-zone.php:190
+#: ../includes/class-zone.php:208
 msgid "Shortcode: "
 msgstr ""
 
-#: ../includes/class-zone.php:249
+#: ../includes/class-zone.php:268
 msgid "Attached Campaign"
 msgstr ""
 
-#: ../includes/class-zone.php:250
+#: ../includes/class-zone.php:269
 msgid "Shortcode"
 msgstr ""

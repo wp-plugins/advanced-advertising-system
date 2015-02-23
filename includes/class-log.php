@@ -158,10 +158,8 @@ class AAS_Log{
 		$modules = array('banner_id', 'zone_id', 'cam_id', 'adv_id');
 		$count_type = $this->type == 'i' ? '_total_view' : '_total_click';
 		foreach($modules as $module){
-			$old = (float)get_post_meta($this->ads_data[$module], '_total_payment', true);
-			update_post_meta($this->ads_data[$module], '_total_payment', $old+$net_price );
-			$old = (int)get_post_meta($this->ads_data[$module], $count_type, true);
-			update_post_meta($this->ads_data[$module], $count_type, $old+1 );
+			$wpdb->query("UPDATE $wpdb->postmeta SET meta_value=meta_value+1 WHERE post_id={$this->ads_data[$module]} AND meta_key = '{$count_type}'");
+			$wpdb->query("UPDATE $wpdb->postmeta SET meta_value=meta_value+{$net_price} WHERE post_id={$this->ads_data[$module]} AND meta_key = '_total_payment'");
 			$v = get_post_meta($this->ads_data[$module], '_total_view', true);
 			if($v > 0){
 			$c = get_post_meta($this->ads_data[$module], '_total_click', true);
@@ -173,10 +171,12 @@ class AAS_Log{
 
 		
 
-		$id = $wpdb->insert($this->log_table, 
+	$id = $wpdb->insert($this->log_table, 
 		array( 
 			'ip_address' => $_SERVER['REMOTE_ADDR'], 
 			'browser' => $this->browser,
+			'user_id' => get_current_user_id(),
+			'referral_url' => urldecode($_REQUEST['c_url']),
 			'device' => $this->device,
 			'type' => $this->type,
 			'zone_id' => $this->ads_data['zone_id'],
@@ -184,10 +184,12 @@ class AAS_Log{
 			'banner_id' => $this->ads_data['banner_id'],
 			'adv_id' => $this->ads_data['adv_id'],
 			'net_price' => $net_price ,
-			'time' => current_time('mysql')
+			'time' => current_time('mysql')//date("Y-m-d H:i:s" , rand(1419984000,current_time('timestamp')))////
 		), 
 		array( 
 			'%s', 
+			'%s',
+			'%d',
 			'%s',
 			'%s', 
 			'%s',
@@ -252,6 +254,19 @@ class AAS_Log{
 	}
 	return 0;
 
+	}
+	static function get_current_url(){
+
+			$currentURL = (@$_SERVER["HTTPS"] == "on") ? "https://" : "http://";
+			$currentURL .= $_SERVER["SERVER_NAME"];
+		 
+			if($_SERVER["SERVER_PORT"] != "80" && $_SERVER["SERVER_PORT"] != "443")
+			{
+				$currentURL .= ":".$_SERVER["SERVER_PORT"];
+			} 
+		 
+				$currentURL .= $_SERVER["REQUEST_URI"];
+			return $currentURL;
 	}
 
 }

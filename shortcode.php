@@ -21,8 +21,27 @@ function aas_zone_shortcode( $atts ) {
         'zone_id' => 0,
     ), $atts );
 	$checker = get_post($a['zone_id']);
+
 	if(!$checker || $checker->post_status != 'publish')
 	return;
+	$checker = get_post_meta($checker->ID,'zone_devices',true);
+
+	$detect = new Mobile_Detect();
+
+	$b =false;
+	if(!empty($checker)){
+	if( in_array('mobile',(array)$checker) && $detect->isMobile() && !$detect->isTablet())
+	$b = true;
+	if( in_array('tablet',(array)$checker) && $detect->isTablet())
+	$b = true;
+	if( in_array('pc',(array)$checker) && (!$detect->isTablet() && !$detect->isMobile()))
+	$b = true;
+	}
+	else
+	$b =true;
+
+	if(!$b)
+	return '';
 	$zone = new AAS_Shortcode($a['zone_id']);
     return $zone->html;
 }
@@ -131,6 +150,7 @@ class AAS_Shortcode{
 	$query_args['data'] = $banner->ID . '-' . $banner->post_parent . '-' . $this->banner_advertiser[$banner->post_parent] . '-' . $this->zone->ID . '-' . $this->zone_order;
 	$query_args['nonce'] = wp_create_nonce($query_args['data']); // create nonce can reduce some spammed log
 	$query_args['redir'] = urlencode(get_post_meta($banner->ID,'banner_link',true));
+	$query_args['c_url'] = isset($_POST['c_url']) ? urlencode($_POST['c_url']) : urlencode(AAS_Log::get_current_url());
 	return add_query_arg($query_args, home_url());
 	}
 

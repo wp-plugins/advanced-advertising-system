@@ -46,7 +46,8 @@ function logging_ads(){
 		var data = {
 		action : 'aas_view_log',
 		nonce : jQuery(this).data('nonce'),
-		data : jQuery(this).data('ads')
+		data : jQuery(this).data('ads'),
+		c_url : window.location.href
 		};
 		jQuery.post(ajax.url,data,function(response){});
 		}

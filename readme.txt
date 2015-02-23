@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: ad, advert, advertise, pricing model, cpc, cpm, cpa, cost per click, cost per mile, pay per click, ad widget, ads widget, ads shortcode, ad shortcode, rotate, rotation, ad rotate, ads rotate, ad manager, ads manager, ad management, ads management, leaderboard ad, medium rectangle ad, advertising, advertisement, ads, banner, campaign, campaign priority, ad priority, priority, zone, banner ads, ads banner, advertiser, advanced ads, advanced advertising, manage ads, ads block, ad row, ad column
 Requires at least: 3.5
 Tested up to: 4.1
-Stable tag: 1.1.3
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -30,36 +30,7 @@ If you have customers who want to promote their products on your site, Advanced 
   
 = PRO Version =
 
-Here are features of the PRO version beta.
-
-* Advanced Filters
- - Term Filter
- - Page Filter
- - Template Filter
- - User Filter
-* Notification Email
-* Reset View Count
-* 5 Rich Media Banner Types
-* Rotation Effect
-* Available Devices Selection
-* More Rotation Type
-* Add a secondary media
-* Can insert a video
-* Payment history
-* Payment result for each campaign
-* View graph for every objects
-* 3 Graph styles : chart, pie, line
-* 2 type of graph : comparison, time
-* Advanced filters for time graph
-* Attach the graph as an image when sending an email to the advertiser
-* Prevent Click Fraud
-* Ajax load, useful when a caching plugin is used
-* Auto Email when a campaign expires
-* Auto Emai when a campaign is updated
-* Auto Email when a campaign nearly expires
-
-PRO version now is available in beta, if you interested, please contact me at smartdevth@gmail.com
-
+PRO version is now available ! Check it out at http://www.smartdevth.com/advanced-advertising-system/
 
 == Installation ==
 
@@ -88,6 +59,10 @@ You have to ensure that you have set everything correctly such as budget, end da
 
 == Changelog ==
 
+= 1.2 =
+* Improve log system
+* Add avalibility for devices field in zone manager
+
 = 1.1.3 =
 * Fix custom HTML function(especially for adsense, and the others)
 
@@ -109,6 +84,10 @@ You have to ensure that you have set everything correctly such as budget, end da
 * The initial version
 
 == Upgrade Notice ==
+
+= 1.2 =
+* Improve log system
+* Add avalibility for devices field in zone manager
 
 = 1.1.3 =
 * Fix custom HTML function(especially for adsense, and the others)

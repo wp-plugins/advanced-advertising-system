@@ -6,6 +6,7 @@
 class AAS_Zone{
 	
 	protected $rotation_type; //priority and random
+	protected $available_devices;
 
 	/**
 	 * Construct backend for zone
@@ -13,6 +14,11 @@ class AAS_Zone{
 	function __construct(){
 
 		$this->rotation_type = array('priority' => __('Priority', AAS_TEXT_DOMAIN) , 'random' => __('Random',AAS_TEXT_DOMAIN) );
+			$this->available_devices = array(
+			'pc' => __('PC', AAS_TEXT_DOMAIN) ,
+			'mobile' => __('Mobile', AAS_TEXT_DOMAIN) ,
+			'tablet' => __('Tablet', AAS_TEXT_DOMAIN) ,
+		);
 		add_action('init' , array(&$this,'zone_register'));
 		add_action( 'save_post', array(&$this,'zone_save_meta') );
 		add_filter('post_updated_messages', array(&$this,'zone_updated_messages') );
@@ -113,10 +119,12 @@ class AAS_Zone{
 		$zone_d_price = get_post_meta($post->ID , 'zone_default_price' ,true);
 		$zone_s_price = get_post_meta($post->ID , 'zone_special_price' ,true);
 		$zone_rotation = get_post_meta($post->ID , 'zone_rotation' ,true);
+		$devices = get_post_meta($post->ID , 'zone_devices' ,true);
 	?>
 	<style>.no_underline{text-decoration:none;}.slot_label{margin-right:4px;}.meta_text{width:98%;}.error{color:red;}.aas_description{color:gray;font-size:smaller;font-style:italic;}.f-right{float:right;}.red{color:red;}.green{color:green;}</style>
 	<script>
 	jQuery(document).ready(function(){
+		jQuery(".multiple-select").chosen({})
 			jQuery("#post").validate();
 		jQuery("#add_s_price").live('click',function(e){
 			e.preventDefault();
@@ -141,6 +149,16 @@ class AAS_Zone{
 	<label><strong><?php _e('Zone Size',AAS_TEXT_DOMAIN);?></strong></label><br/>
 	<input type="number" min="1" name="zone_size[width]" value="<?php echo isset($zone_size['width']) ? $zone_size['width'] : '';?>" placeholder="<?php _e('Width' , AAS_TEXT_DOMAIN); ?>" required/>
 	<input type="number" min="1" name="zone_size[height]" value="<?php echo isset($zone_size['height']) ? $zone_size['height'] : '';?>" placeholder="<?php _e('Height' , AAS_TEXT_DOMAIN); ?>" required/>
+	</p>
+	<p>
+	<label for="zone_devices"><strong><?php _e('Available Devices',AAS_TEXT_DOMAIN);?></strong></label><br/>
+	<span class="aas_description"><?php _e('Leave this field if this zone is available in all devices.',AAS_TEXT_DOMAIN);?></span><br/>
+	<select style="min-width:200px;" data-placeholder="<?php _e('Choose devices' , AAS_TEXT_DOMAIN);?>" multiple class="meta_select multiple-select" name="zone_devices[]" id="zone_devices" >
+	<?php foreach($this->available_devices as $value => $type){?>
+		<option value="<?php echo $value;?>" <?php echo in_array($value,(array)$devices) ? 'selected' : '';?> ><?php echo $type;?></option>
+		<?php } ?>
+	</select>
+	
 	</p>
 	<p>
 	<label for="zone_rotation-type"><strong><?php _e('Rotation Type',AAS_TEXT_DOMAIN);?></strong></label><br/>
@@ -227,6 +245,7 @@ class AAS_Zone{
 		update_post_meta( $post_id, 'zone_default_price' , $_POST['zone_default_price'] );
 		update_post_meta( $post_id, 'zone_special_price' , $_POST['zone_special_price'] );
 		update_post_meta( $post_id, 'zone_rotation' , $_POST['zone_rotation'] );
+		update_post_meta( $post_id, 'zone_devices' , $_POST['zone_devices'] );
 		$d_types = array('_total_payment', '_total_view', '_total_click');
 		foreach($d_types as $t){
 		if(!is_numeric( $$t = get_post_meta( $post_id, $t, true)))
