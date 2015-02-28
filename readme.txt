@@ -30,7 +30,9 @@ If you have customers who want to promote their products on your site, Advanced 
   
 = PRO Version =
 
-PRO version is now available ! Check it out at http://www.smartdevth.com/advanced-advertising-system/
+PRO version is available now ! check it out at : 
+Main Site http://www.smartdevth.com/advanced-advertising-system/
+Demo Site http://www.smartdevth.com/advanced-advertising-system/demo/
 
 == Installation ==
 
