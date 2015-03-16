@@ -277,8 +277,10 @@ if(!isset($_GET['ads_click']))
 return;
 if(wp_verify_nonce($_GET['nonce'],$_GET['data']))
 new AAS_Log($_GET['data'],'c');
-if(!empty($_GET['redir']))
-wp_redirect(urldecode($_GET['redir']));
+if(!empty($_GET['redir'])){
+	wp_redirect(urldecode($_GET['redir']));
+	exit;
+	}
 }
 add_action('template_redirect','aas_ads_click');
 
