@@ -261,7 +261,7 @@ function adv_manage_sortable_columns( $sortable_columns ) {
 new AAS_Advertiser;
 
 function aas_reset_payment(){
-if(!wp_verify_nonce($_POST['nonce'],'reset-payment-'.$_POST['id']))
+if(!wp_verify_nonce($_POST['nonce'],'reset-payment-'.$_POST['id']) && get_post_type($_POST['id']) != 'advertiser')
 wp_die(0);
 if(update_post_meta($_POST['id'], '_total_payment', 0))
 wp_die(1);

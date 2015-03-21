@@ -155,10 +155,10 @@ class AAS_Banner{
 
 	function banner_overview_box($post){
 	?>
-	<p><strong><?php _e('Costs occured from banner: ', AAS_TEXT_DOMAIN)?></strong><span><?php echo @AAS_Log::get_log_by('banner_id' , $post->ID)->payment + @AAS_Log::get_log_by('banner_id' , $post->ID,'c')->payment;?></span></p>
+	<p><strong><?php _e('Costs occured from banner: ', AAS_TEXT_DOMAIN)?></strong><span><?php echo number_format((float)get_post_meta($post->ID,'_total_payment',true),2);?></span></p>
 	<p><strong><?php _e('CTR Rate: ', AAS_TEXT_DOMAIN)?></strong><span><?php echo (float)get_post_meta($post->ID, '_ctr',true) . '%';?></span></p>
-	<p><strong><?php _e('Total Clicks: ', AAS_TEXT_DOMAIN)?></strong><span><?php echo (int)get_post_meta($post->ID, '_total_click',true);?></span></p>
-	<p><strong><?php _e('Total Impressions: ', AAS_TEXT_DOMAIN)?></strong><span><?php echo (int)get_post_meta($post->ID, '_total_view',true);?></span></p>
+	<p><strong><?php _e('Total Clicks: ', AAS_TEXT_DOMAIN)?></strong><span><?php echo number_format((int)get_post_meta($post->ID, '_total_click',true));?></span></p>
+	<p><strong><?php _e('Total Impressions: ', AAS_TEXT_DOMAIN)?></strong><span><?php echo number_format((int)get_post_meta($post->ID, '_total_view',true));?></span></p>
 	<?php
 	}
 

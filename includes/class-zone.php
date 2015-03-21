@@ -200,10 +200,10 @@ class AAS_Zone{
 	global $wpdb;
 	$banner_num=$wpdb->get_var("SELECT COUNT(ID) FROM $wpdb->posts WHERE post_parent IN (SELECT post_id from {$wpdb->prefix}postmeta WHERE meta_key = 'campaign_displaying' AND meta_value={$post->ID}) AND post_type = 'ads_banner'");
 	?>
-	<p><strong><?php _e('Costs occured in zone: ' , AAS_TEXT_DOMAIN)?></strong><span><?php echo @AAS_Log::get_log_by('zone_id' , $post->ID)->payment + @AAS_Log::get_log_by('zone_id' , $post->ID,'c')->payment;?></span></p>
+	<p><strong><?php _e('Costs occured in zone: ' , AAS_TEXT_DOMAIN)?></strong><span><?php echo number_format((float)get_post_meta($post->ID,'_total_payment',true),2);?></span></p>
 	<p><strong><?php _e('CTR Rate: ', AAS_TEXT_DOMAIN)?></strong><span><?php echo (float)get_post_meta($post->ID, '_ctr',true) . '%';?></span></p>
-	<p><strong><?php _e('Total Clicks: ', AAS_TEXT_DOMAIN)?></strong><span><?php echo (int)get_post_meta($post->ID, '_total_click',true);?></span></p>
-	<p><strong><?php _e('Total Impressions: ', AAS_TEXT_DOMAIN)?></strong><span><?php echo (int)get_post_meta($post->ID, '_total_view',true);?></span></p>
+	<p><strong><?php _e('Total Clicks: ', AAS_TEXT_DOMAIN)?></strong><span><?php echo number_format((int)get_post_meta($post->ID, '_total_click',true));?></span></p>
+	<p><strong><?php _e('Total Impressions: ', AAS_TEXT_DOMAIN)?></strong><span><?php echo number_format((int)get_post_meta($post->ID, '_total_view',true));?></span></p>
 	<p><strong><?php _e('Total Banners: ', AAS_TEXT_DOMAIN)?></strong><span><?php echo $banner_num;?></span></p>
 	<p><strong><?php _e('Shortcode: ', AAS_TEXT_DOMAIN)?><?php echo '[aas_zone zone_id="'.$post->ID.'"]';?></strong></p>
 	<?php

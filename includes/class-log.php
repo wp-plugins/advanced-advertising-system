@@ -241,8 +241,8 @@ class AAS_Log{
 	$special_price = get_post_meta($this->ads_data['zone_id'],'zone_special_price',true);
 	$rotation = get_post_meta($this->ads_data['zone_id'],'rotation',true);
 	$model = get_post_meta($this->ads_data['cam_id'],'pricing_model',true);
-	$log = self::get_log_by('cam_id',$this->ads_data['cam_id']);
-	if(($model == 'cpm' && $this->type == 'i' &&  ($log->num%1000) == 999) || ($model == 'cpc' && $this->type == 'c')){
+	$logI = get_post_meta($this->ads_data['cam_id'],'_total_view',true);
+	if(($model == 'cpm' && $this->type == 'i' &&  ($logI%1000) == 999) || ($model == 'cpc' && $this->type == 'c')){
 
 		if(isset($special_price[$this->ads_data['zone_order']][$model]) && $rotation['type'] != 'random')
 		return $special_price[$this->ads_data['zone_order']][$model];

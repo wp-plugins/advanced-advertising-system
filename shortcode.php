@@ -173,15 +173,15 @@ class AAS_Shortcode{
 		if(!empty($meta['campaign_end_date']) && strtotime($meta['campaign_end_date']) < strtotime($now))
 		return false;
 
-		$log = AAS_Log::get_log_by('cam_id',$campaign_id);
+		$logI = get_post_meta($campaign_id,'_total_view',true);
 		$person = unserialize(stripslashes($_COOKIE['view_aas_campaigns'])); // Check a person from his cookie.
-		if($log->num >= $meta['total_impressions'] && $meta['total_impressions'] > 0)
+		if($logI >= $meta['total_impressions'] && $meta['total_impressions'] > 0)
 		return false;
 		if(isset($person['cam_id']) && isset($person[$campaign_id]) && $person[$campaign_id] >= $meta['person_impressions'] && $meta['person_impressions'] > 0)
 		return false;
 
 		if($meta['budget_type']=='life_time'){
-			if($meta['budget_value'] > 0 && $log->payment >= $meta['budget_value'])
+			if($meta['budget_value'] > 0 && get_post_meta($campaign_id,'_total_payment',true) >= $meta['budget_value'])
 			return false;
 		}
 		elseif($meta['budget_type']=='per_day'){
