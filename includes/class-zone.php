@@ -18,6 +18,13 @@ class AAS_Zone{
 			'pc' => __('PC', AAS_TEXT_DOMAIN) ,
 			'mobile' => __('Mobile', AAS_TEXT_DOMAIN) ,
 			'tablet' => __('Tablet', AAS_TEXT_DOMAIN) ,
+			'androidos' => __('Android OS', AAS_TEXT_DOMAIN) ,
+			'ios' => __('iOS', AAS_TEXT_DOMAIN) ,
+			'windowphoneos' => __('Window OS', AAS_TEXT_DOMAIN) ,
+			'blackberryos' =>__('Blackberry OS', AAS_TEXT_DOMAIN) ,
+			'palmos' => __('Palm OS', AAS_TEXT_DOMAIN) ,
+			'javaos'  => __('Java OS', AAS_TEXT_DOMAIN) ,
+			'webos' =>  __('Web OS', AAS_TEXT_DOMAIN) ,
 		);
 		add_action('init' , array(&$this,'zone_register'));
 		add_action( 'save_post', array(&$this,'zone_save_meta') );

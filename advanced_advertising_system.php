@@ -6,7 +6,7 @@
 Plugin Name: Advanced Advertising System
 Plugin URI: http://www.smartdevth.com/advanced-advertising-system/
 Description: Manage your advertiser with many professional features.
-Version: 1.2.2
+Version: 1.2.3
 Author: Smartdevth
 Author URI: http://www.smartdevth.com/advanced-advertising-system/
 License: GPLv2 or later
@@ -17,7 +17,7 @@ define('AAS_PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('AAS_PLUGIN_FILE', basename(__FILE__));
 define('AAS_PLUGIN_FULL_PATH', __FILE__);
 define('AAS_TEXT_DOMAIN' , 'aas');
-
+if(!class_exists('Mobile_Detect'))
 require( AAS_PLUGIN_DIR . 'includes/Mobile-Detect/Mobile_Detect.php');
 require( AAS_PLUGIN_DIR . 'includes/class-log.php');
 require( AAS_PLUGIN_DIR . 'includes/class-advertiser.php');
