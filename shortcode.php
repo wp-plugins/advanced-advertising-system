@@ -36,6 +36,20 @@ function aas_zone_shortcode( $atts ) {
 	$b = true;
 	if( in_array('pc',(array)$checker) && (!$detect->isTablet() && !$detect->isMobile()))
 	$b = true;
+	if( in_array('androidos',(array)$checker) && $detect->isAndroidOS())
+	$b = true;
+	if( in_array('ios',(array)$checker) && $detect->isiOS())
+	$b = true;
+	if( in_array('windowphoneos',(array)$checker) && $detect->isWindowsPhoneOS())
+	$b = true;
+	if( in_array('blackberryos',(array)$checker) && $detect->isBlackBerryOS())
+	$b = true;
+	if( in_array('palmos',(array)$checker) && $detect->isPalmOS())
+	$b = true;
+	if( in_array('javaos',(array)$checker) && $detect->isJavaOS())
+	$b = true;
+	if( in_array('webos',(array)$checker) && $detect->iswebOS())
+	$b = true;
 	}
 	else
 	$b =true;
