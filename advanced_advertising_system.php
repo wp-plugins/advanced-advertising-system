@@ -6,7 +6,7 @@
 Plugin Name: Advanced Advertising System
 Plugin URI: http://www.smartdevth.com/advanced-advertising-system/
 Description: Manage your advertiser with many professional features.
-Version: 1.2.3.1
+Version: 1.2.4
 Author: Smartdevth
 Author URI: http://www.smartdevth.com/advanced-advertising-system/
 License: GPLv2 or later
@@ -176,3 +176,15 @@ if((isset($_GET['post_type']) && in_array($_GET['post_type'],array('ads_banner',
 	endif;
 }
 add_action( 'admin_notices', 'aas_pro_version_notices' );
+
+function aas_add_thumbnails_support() {
+	$supports = get_theme_support( 'post-thumbnails');
+	if(!$supports)
+	add_theme_support( 'post-thumbnails' );
+	elseif(is_array($supports)){
+	$support = current($supports);
+	add_theme_support( 'post-thumbnails', array_merge(array('ads_banner','advertiser'),$support));
+	}
+	
+}
+add_action( 'after_setup_theme', 'aas_add_thumbnails_support' , 40 );

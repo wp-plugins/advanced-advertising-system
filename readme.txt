@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: ad, advert, advertise, pricing model, cpc, cpm, cpa, cost per click, cost per mile, pay per click, ad widget, ads widget, ads shortcode, ad shortcode, rotate, rotation, ad rotate, ads rotate, ad manager, ads manager, ad management, ads management, leaderboard ad, medium rectangle ad, advertising, advertisement, ads, banner, campaign, campaign priority, ad priority, priority, zone, banner ads, ads banner, advertiser, advanced ads, advanced advertising, manage ads, ads block, ad row, ad column
 Requires at least: 3.5
 Tested up to: 4.2
-Stable tag: 1.2.3.1
+Stable tag: 1.2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -62,6 +62,9 @@ You have to ensure that you have set everything correctly such as budget, end da
 
 == Changelog ==
 
+= 1.2.4 =
+* Fix the confliction of featured image between theme and the plugin
+
 = 1.2.3.1 =
 * Update Mobile detection code
 
@@ -103,6 +106,9 @@ You have to ensure that you have set everything correctly such as budget, end da
 * The initial version
 
 == Upgrade Notice ==
+
+= 1.2.4 =
+* Fix the confliction of featured image between theme and the plugin
 
 = 1.2.3.1 =
 * Update Mobile detection code
