@@ -1,0 +1,796 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Advanced Advertising System 1.1\n"
+"POT-Creation-Date: 2015-06-13 21:12+0700\n"
+"PO-Revision-Date: 2015-06-13 21:12+0700\n"
+"Last-Translator: \n"
+"Language-Team: smartdevth <smartdevth@gmail.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _x;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../advanced_advertising_system.php:170
+msgid ""
+"Advanced Advertising System is now available in PRO Version with many cool "
+"features !"
+msgstr ""
+
+#: ../advanced_advertising_system.php:171
+msgid "Check out PRO Version now  !"
+msgstr ""
+
+#: ../advanced_advertising_system.php:172
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../widget.php:13
+msgid "Advertising Display"
+msgstr ""
+
+#: ../widget.php:14
+msgid "Display your zone with this widget."
+msgstr ""
+
+#: ../widget.php:51
+msgid "Choose Zone:"
+msgstr ""
+
+#: ../widget.php:55
+msgid "No zone added"
+msgstr ""
+
+#: ../includes/class-advertiser.php:24 ../includes/class-advertiser.php:26
+msgid "Advertisers"
+msgstr ""
+
+#: ../includes/class-advertiser.php:25 ../includes/class-advertiser.php:27
+msgid "Advertiser"
+msgstr ""
+
+#: ../includes/class-advertiser.php:28 ../includes/class-banner.php:33
+#: ../includes/class-campaign.php:36 ../includes/class-zone.php:45
+msgid "Add New"
+msgstr ""
+
+#: ../includes/class-advertiser.php:29
+msgid "Add New Advertiser"
+msgstr ""
+
+#: ../includes/class-advertiser.php:30
+msgid "New Advertiser"
+msgstr ""
+
+#: ../includes/class-advertiser.php:31
+msgid "Edit Advertiser"
+msgstr ""
+
+#: ../includes/class-advertiser.php:32
+msgid "View Advertiser"
+msgstr ""
+
+#: ../includes/class-advertiser.php:33
+msgid "All Advertisers"
+msgstr ""
+
+#: ../includes/class-advertiser.php:34
+msgid "Search Advertisers"
+msgstr ""
+
+#: ../includes/class-advertiser.php:35
+msgid "Parent Advertisers:"
+msgstr ""
+
+#: ../includes/class-advertiser.php:36
+msgid "No advertisers found."
+msgstr ""
+
+#: ../includes/class-advertiser.php:37
+msgid "No advertisers found in Trash."
+msgstr ""
+
+#: ../includes/class-advertiser.php:68
+msgid "Advertiser updated."
+msgstr ""
+
+#: ../includes/class-advertiser.php:69
+msgid "Advertiser published."
+msgstr ""
+
+#: ../includes/class-advertiser.php:70
+msgid "Advertiser submitted."
+msgstr ""
+
+#: ../includes/class-advertiser.php:71
+#, php-format
+msgid "Advertiser scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: ../includes/class-advertiser.php:72 ../includes/class-banner.php:77
+#: ../includes/class-campaign.php:80 ../includes/class-zone.php:89
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: ../includes/class-advertiser.php:73
+msgid "Advertiser draft updated."
+msgstr ""
+
+#: ../includes/class-advertiser.php:83
+msgid "Advertiser Details"
+msgstr ""
+
+#: ../includes/class-advertiser.php:89
+msgid "Advertiser Overview"
+msgstr ""
+
+#: ../includes/class-advertiser.php:95 ../includes/class-advertiser.php:219
+msgid "Campaign List"
+msgstr ""
+
+#: ../includes/class-advertiser.php:115
+msgid "Are you sure to reset the payment for this advertiser ?"
+msgstr ""
+
+#: ../includes/class-advertiser.php:126
+msgid "Company Name"
+msgstr ""
+
+#: ../includes/class-advertiser.php:130 ../includes/class-advertiser.php:218
+msgid "Email"
+msgstr ""
+
+#: ../includes/class-advertiser.php:134
+msgid "Telephone Number"
+msgstr ""
+
+#: ../includes/class-advertiser.php:138
+msgid "Note"
+msgstr ""
+
+#: ../includes/class-advertiser.php:146
+msgid "Add new campaign for this advertiser"
+msgstr ""
+
+#: ../includes/class-advertiser.php:146
+msgid "Add new campaign"
+msgstr ""
+
+#: ../includes/class-advertiser.php:152 ../includes/class-zone.php:226
+msgid "Campaign : "
+msgstr ""
+
+#: ../includes/class-advertiser.php:152 ../includes/class-zone.php:226
+msgid "Campaign status"
+msgstr ""
+
+#: ../includes/class-advertiser.php:152 ../includes/class-campaign.php:246
+#: ../includes/class-zone.php:226
+msgid "Active"
+msgstr ""
+
+#: ../includes/class-advertiser.php:152 ../includes/class-campaign.php:246
+#: ../includes/class-zone.php:226
+msgid "Inactive"
+msgstr ""
+
+#: ../includes/class-advertiser.php:161
+msgid "Total Payment: "
+msgstr ""
+
+#: ../includes/class-advertiser.php:161
+msgid "Reset Payment"
+msgstr ""
+
+#: ../includes/class-advertiser.php:162 ../includes/class-banner.php:159
+#: ../includes/class-campaign.php:232 ../includes/class-zone.php:211
+msgid "CTR Rate: "
+msgstr ""
+
+#: ../includes/class-advertiser.php:163 ../includes/class-banner.php:160
+#: ../includes/class-campaign.php:233 ../includes/class-zone.php:212
+msgid "Total Clicks: "
+msgstr ""
+
+#: ../includes/class-advertiser.php:164 ../includes/class-banner.php:161
+#: ../includes/class-campaign.php:234 ../includes/class-zone.php:213
+msgid "Total Impressions: "
+msgstr ""
+
+#: ../includes/class-advertiser.php:165 ../includes/class-zone.php:214
+msgid "Total Banners: "
+msgstr ""
+
+#: ../includes/class-advertiser.php:215
+msgid "Avatar"
+msgstr ""
+
+#: ../includes/class-advertiser.php:217
+msgid "Company"
+msgstr ""
+
+#: ../includes/class-advertiser.php:220
+msgid "Total Payment"
+msgstr ""
+
+#: ../includes/class-banner.php:22
+msgid "Blank"
+msgstr ""
+
+#: ../includes/class-banner.php:22
+msgid "Self"
+msgstr ""
+
+#: ../includes/class-banner.php:22 ../includes/class-banner.php:121
+#: ../includes/class-banner.php:223
+msgid "Parent"
+msgstr ""
+
+#: ../includes/class-banner.php:22
+msgid "Top"
+msgstr ""
+
+#: ../includes/class-banner.php:29 ../includes/class-banner.php:31
+msgid "Banners"
+msgstr ""
+
+#: ../includes/class-banner.php:30 ../includes/class-banner.php:32
+msgid "Banner"
+msgstr ""
+
+#: ../includes/class-banner.php:34
+msgid "Add New Banner"
+msgstr ""
+
+#: ../includes/class-banner.php:35
+msgid "New Banner"
+msgstr ""
+
+#: ../includes/class-banner.php:36
+msgid "Edit Banner"
+msgstr ""
+
+#: ../includes/class-banner.php:37
+msgid "View Banner"
+msgstr ""
+
+#: ../includes/class-banner.php:38
+msgid "All Banners"
+msgstr ""
+
+#: ../includes/class-banner.php:39
+msgid "Search Banners"
+msgstr ""
+
+#: ../includes/class-banner.php:40
+msgid "Parent Banners:"
+msgstr ""
+
+#: ../includes/class-banner.php:41
+msgid "No banners found."
+msgstr ""
+
+#: ../includes/class-banner.php:42
+msgid "No banners found in Trash."
+msgstr ""
+
+#: ../includes/class-banner.php:73
+msgid "Banner updated."
+msgstr ""
+
+#: ../includes/class-banner.php:74
+msgid "Banner published."
+msgstr ""
+
+#: ../includes/class-banner.php:75
+msgid "Banner submitted."
+msgstr ""
+
+#: ../includes/class-banner.php:76
+#, php-format
+msgid "Banner scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: ../includes/class-banner.php:78
+msgid "Banner draft updated."
+msgstr ""
+
+#: ../includes/class-banner.php:88
+msgid "Banner Details"
+msgstr ""
+
+#: ../includes/class-banner.php:94
+msgid "Banner Overview"
+msgstr ""
+
+#: ../includes/class-banner.php:122
+msgid "Select the campaign parent of this banner"
+msgstr ""
+
+#: ../includes/class-banner.php:131
+msgid "Target"
+msgstr ""
+
+#: ../includes/class-banner.php:139
+msgid "Link * (e.g. http://www.example.com)"
+msgstr ""
+
+#: ../includes/class-banner.php:143 ../includes/class-banner.php:222
+#: ../includes/class-campaign.php:212 ../includes/class-campaign.php:308
+#: ../includes/class-zone.php:16
+msgid "Priority"
+msgstr ""
+
+#: ../includes/class-banner.php:144 ../includes/class-campaign.php:213
+msgid "A greater number will be display first. Default  is 5."
+msgstr ""
+
+#: ../includes/class-banner.php:148
+msgid "Custom HTML"
+msgstr ""
+
+#: ../includes/class-banner.php:149
+msgid ""
+"if you enale custom HTML, it will override the feature image automatically. "
+"If you insert embed such as flash, you can use %link% as the banner link. "
+"You have to put %link% somewhere in your html; otherwise, click log won't "
+"occur."
+msgstr ""
+
+#: ../includes/class-banner.php:158
+msgid "Costs occured from banner: "
+msgstr ""
+
+#: ../includes/class-banner.php:209 ../includes/class-banner.php:211
+#, php-format
+msgid "* Recommended size is %s"
+msgstr ""
+
+#: ../includes/class-banner.php:218
+msgid "Banner Preview"
+msgstr ""
+
+#: ../includes/class-banner.php:219 ../includes/class-campaign.php:305
+#: ../includes/class-zone.php:272
+msgid "CTR"
+msgstr ""
+
+#: ../includes/class-banner.php:220 ../includes/class-campaign.php:306
+#: ../includes/class-zone.php:273
+msgid "Clicks"
+msgstr ""
+
+#: ../includes/class-banner.php:221 ../includes/class-campaign.php:307
+#: ../includes/class-zone.php:274
+msgid "Impressions"
+msgstr ""
+
+#: ../includes/class-campaign.php:32 ../includes/class-campaign.php:34
+msgid "Campaigns"
+msgstr ""
+
+#: ../includes/class-campaign.php:33 ../includes/class-campaign.php:35
+msgid "Campaign"
+msgstr ""
+
+#: ../includes/class-campaign.php:37
+msgid "Add New Campaign"
+msgstr ""
+
+#: ../includes/class-campaign.php:38
+msgid "New Campaign"
+msgstr ""
+
+#: ../includes/class-campaign.php:39
+msgid "Edit Campaign"
+msgstr ""
+
+#: ../includes/class-campaign.php:40
+msgid "View Campaign"
+msgstr ""
+
+#: ../includes/class-campaign.php:41
+msgid "All Campaigns"
+msgstr ""
+
+#: ../includes/class-campaign.php:42
+msgid "Search Campaigns"
+msgstr ""
+
+#: ../includes/class-campaign.php:43
+msgid "Parent Campaigns:"
+msgstr ""
+
+#: ../includes/class-campaign.php:44
+msgid "No campaigns found."
+msgstr ""
+
+#: ../includes/class-campaign.php:45
+msgid "No campaigns found in Trash."
+msgstr ""
+
+#: ../includes/class-campaign.php:76
+msgid "Campaign updated."
+msgstr ""
+
+#: ../includes/class-campaign.php:77
+msgid "Campaign published."
+msgstr ""
+
+#: ../includes/class-campaign.php:78
+msgid "Campaign submitted."
+msgstr ""
+
+#: ../includes/class-campaign.php:79
+#, php-format
+msgid "Campaign scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: ../includes/class-campaign.php:81
+msgid "Campaign draft updated."
+msgstr ""
+
+#: ../includes/class-campaign.php:91
+msgid "Campaign Details"
+msgstr ""
+
+#: ../includes/class-campaign.php:97
+msgid "Campaign Overview"
+msgstr ""
+
+#: ../includes/class-campaign.php:103 ../includes/class-campaign.php:309
+msgid "Banner List"
+msgstr ""
+
+#: ../includes/class-campaign.php:161
+msgid "Campaign Owner"
+msgstr ""
+
+#: ../includes/class-campaign.php:162
+msgid "Select the owner(advertiser) of this campaign"
+msgstr ""
+
+#: ../includes/class-campaign.php:171
+msgid "Displaying"
+msgstr ""
+
+#: ../includes/class-campaign.php:172
+msgid "Attach this campaign to zone. You can filter zone by choosing a size."
+msgstr ""
+
+#: ../includes/class-campaign.php:176
+msgid "Size"
+msgstr ""
+
+#: ../includes/class-campaign.php:182 ../includes/class-campaign.php:368
+msgid "Choose zones"
+msgstr ""
+
+#: ../includes/class-campaign.php:190
+msgid ""
+"No zone published or created. However, you can insert zone and choose this "
+"field later."
+msgstr ""
+
+#: ../includes/class-campaign.php:194
+msgid "Pricing Model"
+msgstr ""
+
+#: ../includes/class-campaign.php:195
+msgid "Select how cost occurs. The value of cost can be set in a zone section."
+msgstr ""
+
+#: ../includes/class-campaign.php:196
+msgid "CPC - Cost per click"
+msgstr ""
+
+#: ../includes/class-campaign.php:197
+msgid "CPM - Cost occurs every 1,000 of impressions"
+msgstr ""
+
+#: ../includes/class-campaign.php:198
+msgid ""
+"CPP - Cost per period : Costs from clicks or impressions won't occur. An end "
+"date should be set if you choose this option"
+msgstr ""
+
+#: ../includes/class-campaign.php:201
+msgid "Budget"
+msgstr ""
+
+#: ../includes/class-campaign.php:202
+msgid ""
+"Select budget type and value. Budget is a limitation of displaying. Whenever "
+"the costs reach budget value, the campaign will not display."
+msgstr ""
+
+#: ../includes/class-campaign.php:203 ../includes/class-campaign.php:320
+msgid "Life Time"
+msgstr ""
+
+#: ../includes/class-campaign.php:203 ../includes/class-campaign.php:320
+msgid "Per Day"
+msgstr ""
+
+#: ../includes/class-campaign.php:204
+msgid "Budget value"
+msgstr ""
+
+#: ../includes/class-campaign.php:207
+msgid "Schedule"
+msgstr ""
+
+#: ../includes/class-campaign.php:208
+msgid "Set an end date or leave it empty. A start date is a published date."
+msgstr ""
+
+#: ../includes/class-campaign.php:209
+msgid "End date"
+msgstr ""
+
+#: ../includes/class-campaign.php:217
+msgid "Total Impressions"
+msgstr ""
+
+#: ../includes/class-campaign.php:218
+msgid ""
+"Set a number of total impressions. If impressions reach this value, the "
+"campaign won't be display. 0 means no limit"
+msgstr ""
+
+#: ../includes/class-campaign.php:222
+msgid "Person Impressions"
+msgstr ""
+
+#: ../includes/class-campaign.php:223
+msgid ""
+"Set a number of impressions per person. If impressions reach this value, the "
+"campaign won't be display for that person. 0 means no limit"
+msgstr ""
+
+#: ../includes/class-campaign.php:231
+msgid "Costs occured from campaign: "
+msgstr ""
+
+#: ../includes/class-campaign.php:240
+msgid "Add new banner for this campaign"
+msgstr ""
+
+#: ../includes/class-campaign.php:240
+msgid "Add new banner"
+msgstr ""
+
+#: ../includes/class-campaign.php:246
+msgid "Banner : "
+msgstr ""
+
+#: ../includes/class-campaign.php:246
+msgid "Banner status"
+msgstr ""
+
+#: ../includes/class-campaign.php:304
+msgid "Target Pricing"
+msgstr ""
+
+#: ../includes/class-campaign.php:310
+msgid "Owner"
+msgstr ""
+
+#: ../includes/class-campaign.php:312
+msgid "End Date"
+msgstr ""
+
+#: ../includes/class-campaign.php:320
+#, php-format
+msgid "Model: %s<br/>Budget: %s<br/>Value: %s<br/>Limit View: %s"
+msgstr ""
+
+#: ../includes/class-zone.php:16
+msgid "Random"
+msgstr ""
+
+#: ../includes/class-zone.php:18
+msgid "PC"
+msgstr ""
+
+#: ../includes/class-zone.php:19
+msgid "Mobile"
+msgstr ""
+
+#: ../includes/class-zone.php:20
+msgid "Tablet"
+msgstr ""
+
+#: ../includes/class-zone.php:21
+msgid "Android OS"
+msgstr ""
+
+#: ../includes/class-zone.php:22
+msgid "iOS"
+msgstr ""
+
+#: ../includes/class-zone.php:23
+msgid "Window OS"
+msgstr ""
+
+#: ../includes/class-zone.php:24
+msgid "Blackberry OS"
+msgstr ""
+
+#: ../includes/class-zone.php:25
+msgid "Palm OS"
+msgstr ""
+
+#: ../includes/class-zone.php:26
+msgid "Java OS"
+msgstr ""
+
+#: ../includes/class-zone.php:27
+msgid "Web OS"
+msgstr ""
+
+#: ../includes/class-zone.php:41 ../includes/class-zone.php:43
+msgid "Zones"
+msgstr ""
+
+#: ../includes/class-zone.php:42 ../includes/class-zone.php:44
+msgid "Zone"
+msgstr ""
+
+#: ../includes/class-zone.php:46
+msgid "Add New Zone"
+msgstr ""
+
+#: ../includes/class-zone.php:47
+msgid "New Zone"
+msgstr ""
+
+#: ../includes/class-zone.php:48
+msgid "Edit Zone"
+msgstr ""
+
+#: ../includes/class-zone.php:49
+msgid "View Zone"
+msgstr ""
+
+#: ../includes/class-zone.php:50
+msgid "All Zones"
+msgstr ""
+
+#: ../includes/class-zone.php:51
+msgid "Search Zones"
+msgstr ""
+
+#: ../includes/class-zone.php:52
+msgid "Parent Zones:"
+msgstr ""
+
+#: ../includes/class-zone.php:53
+msgid "No zones found."
+msgstr ""
+
+#: ../includes/class-zone.php:54
+msgid "No zones found in Trash."
+msgstr ""
+
+#: ../includes/class-zone.php:85
+msgid "Zone updated."
+msgstr ""
+
+#: ../includes/class-zone.php:86
+msgid "Zone published."
+msgstr ""
+
+#: ../includes/class-zone.php:87
+msgid "Zone submitted."
+msgstr ""
+
+#: ../includes/class-zone.php:88
+#, php-format
+msgid "Zone scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: ../includes/class-zone.php:90
+msgid "Zone draft updated."
+msgstr ""
+
+#: ../includes/class-zone.php:102
+msgid "Zone Details"
+msgstr ""
+
+#: ../includes/class-zone.php:108
+msgid "Zone Overview"
+msgstr ""
+
+#: ../includes/class-zone.php:114
+msgid "Attached Campaigns"
+msgstr ""
+
+#: ../includes/class-zone.php:139 ../includes/class-zone.php:197
+msgid "Slot"
+msgstr ""
+
+#: ../includes/class-zone.php:139 ../includes/class-zone.php:186
+#: ../includes/class-zone.php:197
+msgid "CPC"
+msgstr ""
+
+#: ../includes/class-zone.php:139 ../includes/class-zone.php:187
+#: ../includes/class-zone.php:198
+msgid "CPM"
+msgstr ""
+
+#: ../includes/class-zone.php:156
+msgid "Zone Size"
+msgstr ""
+
+#: ../includes/class-zone.php:157 ../includes/class-zone.php:181
+#: ../includes/class-zone.php:270
+msgid "Width"
+msgstr ""
+
+#: ../includes/class-zone.php:158 ../includes/class-zone.php:271
+msgid "Height"
+msgstr ""
+
+#: ../includes/class-zone.php:161
+msgid "Available Devices"
+msgstr ""
+
+#: ../includes/class-zone.php:162
+msgid "Leave this field if this zone is available in all devices."
+msgstr ""
+
+#: ../includes/class-zone.php:163
+msgid "Choose devices"
+msgstr ""
+
+#: ../includes/class-zone.php:171
+msgid "Rotation Type"
+msgstr ""
+
+#: ../includes/class-zone.php:179
+msgid "Rotation Timeout"
+msgstr ""
+
+#: ../includes/class-zone.php:180
+msgid "Timeout when rotating a banner in seconds"
+msgstr ""
+
+#: ../includes/class-zone.php:184
+msgid "Default Price"
+msgstr ""
+
+#: ../includes/class-zone.php:185
+msgid "If this zone has no special price, this price will be used as default."
+msgstr ""
+
+#: ../includes/class-zone.php:190
+msgid "Special Price"
+msgstr ""
+
+#: ../includes/class-zone.php:191
+msgid ""
+"If slot #1,#2,#3,...,#n have different prices then you should specify the "
+"special price."
+msgstr ""
+
+#: ../includes/class-zone.php:210
+msgid "Costs occured in zone: "
+msgstr ""
+
+#: ../includes/class-zone.php:215
+msgid "Shortcode: "
+msgstr ""
+
+#: ../includes/class-zone.php:275
+msgid "Attached Campaign"
+msgstr ""
+
+#: ../includes/class-zone.php:276
+msgid "Shortcode"
+msgstr ""
