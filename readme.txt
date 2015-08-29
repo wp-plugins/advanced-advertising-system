@@ -34,6 +34,7 @@ PRO version is available now ! check it out at :
 
 *   Main Site http://www.smartdevth.com/advanced-advertising-system/
 *   Demo Site http://www.smartdevth.com/advanced-advertising-system/demo/
+*   Concept and Documentation http://www.smartdevth.com/advanced-advertising-system/concept/
 
 == Installation ==
 
@@ -42,6 +43,7 @@ PRO version is available now ! check it out at :
 3. Add zones which you want to display
 4. Add advertiser, campaign, banner
 5. Select `Advertising Display` in the widget or place shortcode [aas_zone zone_id=""]
+6. For more information please visit http://www.smartdevth.com/advanced-advertising-system/concept/
 
 == Frequently Asked Questions ==
 
